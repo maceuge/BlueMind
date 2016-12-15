@@ -1,0 +1,2 @@
+# BlueMind
+Personal Page
