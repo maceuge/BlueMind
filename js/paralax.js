@@ -35,7 +35,7 @@
                 }
 
                 var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
-                console.log(yBgPosition);
+                // console.log(yBgPosition);
                 // Apply the Y Background Position to Set the Parallax Effect
                 $this.css('background-position', 'center ' + yBgPosition + 'px');
 
