@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/generic.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/generic.css">
     <title>BlueMind</title>
 </head>
 <body>
@@ -27,6 +27,7 @@
             </button>
             <img src="img/avatar.png" class="img-rounded navavatar" alt="Eugenio Vorontsov" width="40" height="40">
             <a class="navbar-brand" href="index.html"> Eugenio Vorontsov</a>
+            <!--<span class="recon"> < Web Full Stack Developer /> </span>-->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,7 +35,8 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><i class="fa fa-user-circle-o"></i> Sobre Mi</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-flask"></i> Desarrollo <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Estudios</a></li>
                         <li><a href="#">Conocimientos</a></li>
@@ -44,8 +46,8 @@
                         <li><a href="#">Noticias</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#"><i class="fa fa-th-large"></i> Portfolio</a></li>
+                <li><a href="#"><i class="fa fa-vcard"></i> Contacto</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -64,24 +66,33 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="img/imgTest1.jpg" alt="...">
+            <img src="img/carousel/img1.jpg" alt="...">
             <div class="carousel-caption">
-                <h3>Un Mundo Digital</h3>
-                <p>Hoy todo se hace a travez de una aplicacion web o movil</p>
+                <h1 class="carousel-h1">Vivimos en un Mundo Digital</h1>
+                <h3 class="carousel-h3">
+                    Hoy la tecnologia esta al alcance de nuestras manos
+                    y nos facilita y ordena algunas de las tareas diarias.
+                </h3>
             </div>
         </div>
         <div class="item">
-            <img src="img/imgTest2.jpg" alt="...">
+            <img src="img/carousel/img2.jpg" alt="...">
             <div class="carousel-caption">
-                <h3>Investigacion y Desarrollo</h3>
-                <p>Estar a la vanguardia en ultimas tendencias es estar un paso adelante</p>
+                <h1 class="carousel-h1">Investigacion y Desarrollo Constante</h1>
+                <h3 class="carousel-h3">
+                   Estar a la vanguardia en ultimas tecnologias nos lleva a estar un
+                   paso adelante en el desarrollo de diversas soluciones.
+                </h3>
             </div>
         </div>
         <div class="item">
-            <img src="img/imgTest3.jpg" alt="...">
+            <img src="img/carousel/img3.jpg" alt="...">
             <div class="carousel-caption">
-                <h3>Colaboracion</h3>
-                <p>Ayudar a aquellos que estan empezando</p>
+                <h1 class="carousel-h1">Ayudar y Colaborar en un Proyecto</h1>
+                <h3 class="carousel-h3">
+                    El desarrollo se hace mas rapido y ordenado cuando se trabaja
+                    en equipo que comprende conocimientos en distintos lenguajes de programacion.
+                </h3>
             </div>
         </div>
     </div>
@@ -269,6 +280,7 @@
 <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/paralax.js"></script>
+<script type="text/javascript" src="js/navanim.js"></script>
 
 <!--Fin de JavaScript Plugins-->
 

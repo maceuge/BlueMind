@@ -1,0 +1,14 @@
+
+.carousel-h1 {
+    font-size: 55px;
+    text-shadow: 0px 0px 15px #000000;
+}
+
+.carousel-h3 {
+    /*padding-bottom: 230px;*/
+    padding-bottom: 25%;
+}
+
+.bluelight {
+    background-color: #039be5;
+}
