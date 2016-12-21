@@ -5,9 +5,8 @@
     border-radius: 0px;
     border: 0px;
     padding: 0px;
-    background-color: transparent;
-    /*background-color: #039be5;*/
-    transition: all 0.3s ease-in-out;
+    background: transparent;
+    transition: all 1s ease-in-out;
 }
 
 .navavatar {
@@ -47,6 +46,9 @@
 
 /*Fin Navbar*/
 
+
+
+
 /*Carousel*/
 .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .fa-angle-double-left, .carousel-control .fa-angle-double-right {
     position: absolute;
@@ -63,17 +65,21 @@
 /*Fin de Carousel*/
 
 
+
+
+
 /*Parallax Seccion*/
 section {
     height:600px;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:30px;
+    padding-bottom:10px;
     overflow:auto;
     margin-top: 0px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 0%);
 }
 
 .bg-1 {
-    background: url('../img/parallax/estudios.jpg') no-repeat center center fixed;
+    background: url('../img/parallax/estudiosdark.jpg') no-repeat center center fixed;
     color:#fff;
     background-size:cover;
     margin-top: 0px;
@@ -94,6 +100,16 @@ section {
 /*Fin de Parallax Seccion*/
 
 
+/*Contenedores*/
+
+.homepage {
+    padding-top: 30px;
+    height: 600px;
+}
+
+/*Fin de contenedores*/
+
+
 /*Footer*/
 #footer {
     height: 60px;
@@ -105,6 +121,10 @@ section {
 
 #footer a {
     color:#efefef;
+}
+
+.list-footer {
+    border-right: 1px solid #dfdfdf ;
 }
 
 /*Fin del Footer*/
