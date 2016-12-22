@@ -62,6 +62,19 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
 }
 
+.carousel-h1 {
+    font-size: 55px;
+    text-shadow: 0px 0px 15px #000000;
+}
+
+.carousel-h3 {
+    padding-bottom: 23%;
+}
+
+.carousel-hr {
+    max-width: 550px;
+}
+
 /*Fin de Carousel*/
 
 
@@ -70,7 +83,7 @@
 
 /*Parallax Seccion*/
 section {
-    height:600px;
+    min-height:600px;
     padding-top:30px;
     padding-bottom:10px;
     overflow:auto;
@@ -97,24 +110,122 @@ section {
     background-size:cover;
 }
 
+.footer-section {
+    min-height: 450px;
+}
+
 /*Fin de Parallax Seccion*/
+
+
+
+
+
+
+
+/*Seccion SOBRE MI*/
+
+.present {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 18px;
+    color: #4a4a4a;
+}
+
+.tag {
+    font-size: 37px;
+    font-weight: 600;
+    color: rgba(208, 208, 208, 0.44);
+}
+
+/*Fin de Seccion SOBRE MI*/
+
+
+
+
+
+
+/*Seccion ESTUDIOS y DESARROLLO*/
+
+.study {
+    min-height: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.study:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid #039be5;
+}
+
+.invest {
+    min-height: 390px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.invest:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid #039be5;
+}
+
+.know-box {
+    /*min-height: 420px;*/
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 3px solid #cccccc;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    padding: 15px;
+}
+
+.know-box:hover {
+    border: 3px solid #039be5;
+}
+
+.testimg {
+    border: 1px solid darkred;
+    min-width: 138px;
+    min-height: 130px;
+    float: left;
+}
+
+
+/* Fin Seccion ESTUDIOS*/
+
+
+
+
+
 
 
 /*Contenedores*/
 
 .homepage {
     padding-top: 30px;
-    height: 600px;
+    min-height: 600px;
 }
 
 /*Fin de contenedores*/
+
+
+
+
+
 
 
 /*Footer*/
 #footer {
     height: 60px;
     background-color:#585858;
-    /*margin-top:50px;*/
     padding-top:20px;
     padding-bottom:20px;
 }
@@ -124,7 +235,54 @@ section {
 }
 
 .list-footer {
-    border-right: 1px solid #dfdfdf ;
+    border-left: 1px solid #dfdfdf ;
+}
+
+a {
+    color: #aaaaaa;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 3px #ffffff;
+}
+
+.foot-link {
+    font-size: 16px;
+    text-align: right;
+    margin-top: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.favicons i {
+    padding-left: 21px;
+}
+
+.footer-bar {
+    font-size: 15px;
 }
 
 /*Fin del Footer*/
+
+
+
+
+
+
+
+/*Contacto*/
+
+.form-control {
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.20);
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 1);
+    color: #5c5c5c;
+}
+
+/*Fin de contacto*/

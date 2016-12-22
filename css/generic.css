@@ -1,17 +1,4 @@
 
-.carousel-h1 {
-    font-size: 55px;
-    text-shadow: 0px 0px 15px #000000;
-}
-
-.carousel-h3 {
-    /*padding-bottom: 230px;*/
-    padding-bottom: 23%;
-}
-
-.carousel-hr {
-    max-width: 550px;
-}
 
 .bluelight {
     background-color: #039be5;
@@ -31,8 +18,13 @@
 
 ul {
     list-style-type: none;
+    padding-left: 15px;
 }
 
 a:link {
     text-decoration: none;
+}
+
+textarea {
+    resize: none;
 }
