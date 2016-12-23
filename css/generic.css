@@ -1,20 +1,18 @@
 
 
-.bluelight {
+.bluemiddle {
     background-color: #039be5;
+}
+
+.bluelight {
+    background-color: #18befb;
 }
 
 .bluelight-grad {
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #039be5 75%);
 }
 
-.footerbar-color {
-    height: 250px;
-    width: 100%;
-    /*background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
-    background: linear-gradient(141deg, #039be5 0%, #1fc8db 51%, #0fb8ad 75%);
-    opacity: 1;
-}
+
 
 ul {
     list-style-type: none;
