@@ -156,7 +156,7 @@ section {
 
 
 
-/*Seccion ESTUDIOS y DESARROLLO*/
+/*Seccion ESTUDIOS y DESARROLLO y CONOCIMIENTOS*/
 
 .study {
     min-height: 200px;
@@ -184,10 +184,31 @@ section {
     transition: all 0.3s ease-in-out;
 }
 
-.invest:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 3px solid #039be5;
+.invest-semantic:hover {
+    background-color: rgba(0, 126, 119, 1);
+    border: 3px solid #ffffff;
 }
+
+.invest-firebase:hover {
+    background-color: rgba(0, 97, 172, 1);
+    /*background-color: rgba(3, 155, 229, 0.93);*/
+    border: 3px solid #ffffff;
+}
+
+.invest-logo {
+    padding: 20px;
+}
+
+.invest-title {
+    padding-bottom: 10px;
+}
+
+.invest-coment {
+    padding: 15px 35px;
+}
+
+
+
 
 .know-box {
     /*min-height: 420px;*/
@@ -367,6 +388,11 @@ ul.galeria > li img:hover {
 }
 
 /*Fin de la Galeria*/
+
+
+
+
+
 
 
 /*Portfolio*/
