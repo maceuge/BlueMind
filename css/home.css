@@ -139,7 +139,7 @@ section {
 .present {
     margin-top: 13px;
     margin-bottom: 13px;
-    font-size: 18px;
+    font-size: 17px;
     color: #4a4a4a;
 }
 
@@ -147,6 +147,11 @@ section {
     font-size: 37px;
     font-weight: 600;
     color: rgba(208, 208, 208, 0.44);
+}
+
+.foto-row {
+    border: 1px solid #039be5;
+    height: 400px;
 }
 
 /*Fin de Seccion SOBRE MI*/
@@ -211,29 +216,22 @@ section {
 
 
 .know-box {
-    /*min-height: 420px;*/
     margin-top: 20px;
     margin-bottom: 30px;
-    border: 3px solid #cccccc;
+    border: 3px solid #039be5;
+    /*border: 3px solid #cccccc;*/
     border-radius: 4px;
     background-color: transparent;
-    transition: all 0.3s ease-in-out;
-    /*padding: 15px;*/
+    transition: all 0.4s ease-in-out;
 }
 
-.know-box:hover {
-    border: 3px solid #039be5;
-}
-
-.testimg {
-    border: 1px solid darkred;
-    min-width: 138px;
-    min-height: 130px;
-    float: left;
-}
+/*.know-box:hover {*/
+    /*border: 3px solid #039be5;*/
+/*}*/
 
 
-/* Fin Seccion ESTUDIOS*/
+
+/* Fin Seccion VARIOS*/
 
 
 
@@ -265,18 +263,19 @@ section {
 }
 
 #footer a {
-    color:#efefef;
+    color: #252b34;
 }
 
 .list-footer {
-    border-left: 1px solid #dfdfdf ;
+    border-left: 1px solid rgba(255, 255, 255, 0.37);
 }
 
-a {
+.list-footer a {
+    text-decoration: none;
     color: #aaaaaa;
 }
 
-a:hover {
+.list-footer a:hover {
     color: #ffffff;
     text-shadow: 0px 0px 3px #ffffff;
 }
@@ -307,7 +306,39 @@ a:hover {
 
 
 
+/*Boton subir arriba*/
 
+.top-button {
+    display: none;
+}
+
+.btn-rolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 200;
+
+    border: 2px solid #636163;
+    color: #636163;
+    display: inline-block;
+    padding: 9px 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+    /*display: none;*/
+}
+
+.btn-rolltop:hover {
+    color: #636163;
+    /*background-color: #03b1ff;*/
+}
+
+.btn-rolltop:focus {
+    color: #636163;
+}
+
+/*Fin del boton*/
 
 
 
@@ -348,19 +379,21 @@ ul.galeria > li {
 }
 
 ul.galeria > li img {
-    transition: all 0.4s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    height: 100%;
     width: 100%;
 }
 
 ul.galeria > li img:hover {
-    opacity: 0.95;
-    border-radius: 8px;
-    box-shadow: 0px 0px 7px #3f383e;
-    -webkit-transform:scale(1.25);
-    -moz-transform:scale(1.25);
-    -ms-transform:scale(1.25);
-    -o-transform:scale(1.25);
-    transform:scale(1.25);
+    border: 1px solid #18befb;
+    /*opacity: 0.95;*/
+    /*border-radius: 8px;*/
+    /*box-shadow: 0px 0px 7px #3f383e;*/
+    /*-webkit-transform:scale(1.25);*/
+    /*-moz-transform:scale(1.25);*/
+    /*-ms-transform:scale(1.25);*/
+    /*-o-transform:scale(1.25);*/
+    /*transform:scale(1.25);*/
 }
 
 @media(min-width:1200px){
