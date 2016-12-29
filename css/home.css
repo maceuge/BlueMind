@@ -600,3 +600,72 @@ ul.galeria > li img:hover {
 }
 
 /*Fin de Portfolio*/
+
+
+/*Slider de Certificaciones*/
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 5px auto 0 auto;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 0;
+    width: 900px;
+    height: 637px;
+    background: #ccc;
+    text-align: center;
+    line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 17px;
+    width: auto;
+    height: auto;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    text-decoration: none;
+    /*font-weight: 600;*/
+    /*font-size: 18px;*/
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+    border-radius: 0 4px 4px 0;
+}
+
+a.control_next {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.modal {
+    margin-top: 50px;
+}
+
+/*Fin de Slider de Certificaiones*/
