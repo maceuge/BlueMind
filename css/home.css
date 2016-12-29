@@ -6,7 +6,7 @@
     height: 50px;
     margin: 0px;
     position: fixed;
-    z-index: 999;
+    z-index: 200;
     border: 0px;
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #039be5 75%);
     display: none;
@@ -169,7 +169,7 @@ section {
     margin-bottom: 30px;
     border: 3px solid rgba(255, 255, 255, 0.4);
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 45px 60px 20px 60px;
     transition: all 0.3s ease-in-out;
 }
@@ -604,15 +604,16 @@ ul.galeria > li img:hover {
 
 /*Slider de Certificaciones*/
 
-#slider {
+.slider {
     position: relative;
     overflow: hidden;
     margin: 5px auto 0 auto;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid #18befb;
     border-radius: 8px;
+    z-index: 500;
 }
 
-#slider ul {
+.slider ul {
     position: relative;
     margin: 0;
     padding: 0;
@@ -620,7 +621,7 @@ ul.galeria > li img:hover {
     list-style: none;
 }
 
-#slider ul li {
+.slider ul li {
     position: relative;
     display: block;
     float: left;
@@ -633,35 +634,65 @@ ul.galeria > li img:hover {
     line-height: 300px;
 }
 
-a.control_prev, a.control_next {
+a.control_prev1, a.control_next1 {
     position: absolute;
-    top: 40%;
+    top: 45%;
     z-index: 999;
     display: block;
-    padding: 17px;
+    padding: 12px;
     width: auto;
     height: auto;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(24, 190, 251);
     color: #fff;
     text-decoration: none;
-    /*font-weight: 600;*/
-    /*font-size: 18px;*/
-    opacity: 0.8;
+    opacity: 0.85;
     cursor: pointer;
 }
 
-a.control_prev:hover, a.control_next:hover {
+a.control_prev1:hover, a.control_next1:hover,
+a.control_prev1:focus, a.control_next1:focus {
     opacity: 1;
     -webkit-transition: all 0.2s ease;
 }
 
-a.control_prev {
-    border-radius: 0 4px 4px 0;
+a.control_prev1 {
+    border-radius: 0 50% 50% 0;
 }
 
-a.control_next {
+a.control_next1 {
     right: 0;
-    border-radius: 4px 0 0 4px;
+    border-radius: 50% 0 0 50%;
+}
+
+
+a.control_prev2, a.control_next2 {
+    position: absolute;
+    top: 45%;
+    z-index: 999;
+    display: block;
+    padding: 12px;
+    width: auto;
+    height: auto;
+    background-color: rgb(24, 190, 251);
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+a.control_prev2:hover, a.control_next2:hover,
+a.control_prev2:focus, a.control_next2:focus {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev2 {
+    border-radius: 0 50% 50% 0;
+}
+
+a.control_next2 {
+    right: 0;
+    border-radius: 50% 0 0 50%;
 }
 
 .modal {
