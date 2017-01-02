@@ -35,21 +35,23 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-user-circle-o"></i> Sobre Mi</a></li>
+                <li><a href="#" id="sobremi"><i class="fa fa-user-circle-o"></i> Sobre Mi</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-flask"></i> Desarrollo <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Estudios</a></li>
-                        <li><a href="#">Conocimientos</a></li>
-                        <li><a href="#">Investigacion y Desarrollo</a></li>
-                        <li><a href="#">Aptitudes</a></li>
+                        <li><a href="#" id="cursos">Cursos</a></li>
+                        <li><a href="#" id="conocim">Conocimientos</a></li>
+                        <li><a href="#" id="desarrollo">Investigacion y Desarrollo</a></li>
+                        <li><a href="#" id="libros">Libros Recomendados</a></li>
+                        <li><a href="#" id="links">Links Interesantes</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Aptitudes</a></li>
+                        <li><a href="#">Pasatiempos</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><i class="fa fa-th-large"></i> Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-vcard"></i> Contacto</a></li>
+                <li><a href="#" id="portfolio"><i class="fa fa-th-large"></i> Portfolio</a></li>
+                <li><a href="#" id="contacto"><i class="fa fa-vcard"></i> Contacto</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -308,6 +310,28 @@
                             <p>Eugenio Vorontsov<a href="https://github.com/maceuge/qplayLaravel" target="_blank">Ver Proyecto en GitHub</a></p>
                         </div>
                         <div class="ch-thumb ch-img-1"></div>
+                        <!--<div class="portfolio-coment">-->
+                            <!--&lt;!&ndash;<p><b>Proyecto</b></p>&ndash;&gt;-->
+                            <!--<p class="text-center">-->
+                                <!--Qplay es una Red Social orientada a musica en donde puedes encontrarte con las-->
+                                <!--personas con los mismos gustos musicales que tu, compartir musica, seguir alguna-->
+                                <!--banda o formar propia.-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    </div>
+                    <div class="portfolio-coment">
+                        <!--<p><b>Proyecto</b></p>-->
+                        <p class="text-center">
+                            Qplay es una Red Social orientada a musica en donde puedes encontrarte con las
+                            personas con los mismos gustos musicales que tu, compartir musica, seguir alguna
+                            banda o formar propia.
+                        </p>
+                        <!--<p><b>Tecnologia Aplicada</b></p>-->
+                        <!--<p class="text-center">-->
+                            <!--El proyecto fue desarollado bajo el Framework Laravel 5.3 ORM:Eloquent, agregando-->
+                            <!--animaciones y funcionalidades con JQuery y para interaccion mas fluida se aplico Ajax.-->
+                            <!--La Web se Maquetio con Bootstrap y el Diseño General con CSS3.-->
+                        <!--</p>-->
                     </div>
                 </li>
                 <li>
@@ -318,6 +342,12 @@
                         </div>
                         <div class="ch-thumb ch-img-2"></div>
                     </div>
+                    <div class="portfolio-coment">
+                        <p class="text-center">
+                            Movie Finder es una biblioteca de peliculas del tipo muestra desarrollado bajo el
+                            Framework Laravel 5.3 con el ORM: Eloquent explorando sus funcionalidades.
+                        </p>
+                    </div>
                 </li>
                 <li>
                     <div class="ch-item ch-img-3">
@@ -326,6 +356,12 @@
                             <p>Ivan Vitali y Eugenio Vorontsov <a href="http://www.igrowup.com.ar" target="_blank">Ver Pagina WEB</a></p>
                         </div>
                         <div class="ch-thumb ch-img-3"></div>
+                    </div>
+                    <div class="portfolio-coment">
+                        <p class="text-center">
+                            iGrowUp es un sistema de Gestion de Datos Personales basado en un Dashboard
+                            para organizar y administrar distintos grupos y organizaciones.
+                        </p>
                     </div>
                 </li>
                 <li>
@@ -336,36 +372,6 @@
                         </div>
                         <div class="ch-thumb ch-img-4"></div>
                     </div>
-                </li>
-            </ul>
-
-            <ul class="ch-grid">
-                <li>
-                    <div class="portfolio-coment">
-                        <p class="text-center">
-                            Qplay es una Red Social orientada a musica en donde puedes encontrarte con las
-                            personas con los mismos gustos musicales que tu, compartir musica, seguir alguna
-                            banda o formar propia.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="portfolio-coment">
-                        <p class="text-center">
-                            Movie Finder es una biblioteca de peliculas del tipo muestra desarrollado bajo el
-                            Framework Laravel 5.3 con el ORM: Eloquent explorando sus funcionalidades.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="portfolio-coment">
-                        <p class="text-center">
-                            iGrowUp es un sistema de Gestion de Datos Personales basado en un Dashboard
-                            para organizar y administrar distintos grupos y organizaciones.
-                        </p>
-                    </div>
-                </li>
-                <li>
                     <div class="portfolio-coment">
                         <p class="text-center">
                             Encuestas Rock & Vida es una web para realizar las encuestas sobre el VIH
@@ -532,6 +538,7 @@
 <script type="text/javascript" src="js/navanim.js"></script>
 <script type="text/javascript" src="js/rolltop.js"></script>
 <script type="text/javascript" src="js/certifslider2.js"></script>
+<script type="text/javascript" src="js/pagenav.js"></script>
 
 <!--Fin de JavaScript Plugins-->
 

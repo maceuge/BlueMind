@@ -19,6 +19,6 @@ $(document).ready(function () {
 
    $('.btn-rolltop').click(function (evt) {
        evt.preventDefault();
-       $('body').animate({scrollTop: 0}, 1700);
+       $('body').animate({scrollTop: 0}, 1200);
    });
 });
