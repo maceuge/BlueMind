@@ -4,34 +4,51 @@
 
 $(document).ready(function () {
 
+    var carusel = $('.carousel').innerHeight();
+    var bymi = $('#bymi').innerHeight();
+    var estudios = $('#estudios').innerHeight();
+    var conocimientos = $('#conocimientos').innerHeight();
+    var desarollo = $('#desarollo').innerHeight();
+    var pfolio = $('#pfolio').innerHeight();
+
+    $(window).resize(function () {
+        carusel = $('.carousel').innerHeight();
+        bymi = $('#bymi').innerHeight();
+        estudios = $('#estudios').innerHeight();
+        conocimientos = $('#conocimientos').innerHeight();
+        desarollo = $('#desarollo').innerHeight();
+        pfolio = $('#pfolio').innerHeight();
+    });
+
+
     $('#sobremi').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: 600}, 500);
+        $('body').animate({scrollTop: carusel - 50}, 500);
     })
 
     $('#cursos').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: 1200}, 500);
+        $('body').animate({scrollTop: (carusel + bymi) - 50}, 500);
     })
 
     $('#conocim').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: 1850}, 500);
+        $('body').animate({scrollTop: (carusel + bymi + estudios) - 50}, 500);
     })
 
     $('#desarrollo').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: 2500}, 500);
+        $('body').animate({scrollTop: (carusel + bymi + estudios + conocimientos) - 50}, 500);
     })
 
     $('#portfolio').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: 3110}, 500);
+        $('body').animate({scrollTop: (carusel + bymi + estudios + conocimientos + desarollo) - 50}, 500);
     })
 
     $('#contacto, #libros, #links').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: 3600}, 500);
+        $('body').animate({scrollTop: $(window).innerHeight() * 10}, 500);
     })
 
 });
