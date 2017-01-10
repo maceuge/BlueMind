@@ -36,10 +36,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" id="sobremi"><i class="fa fa-user-circle-o"></i> Sobre Mi</a></li>
+                <li><a href="#" id="sobremi"><!--i class="fa fa-user-circle-o"></i--> Sobre Mi</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-flask"></i> Desarrollo <span class="caret"></span></a>
+                        <!--i class="fa fa-flask"></i--> Desarrollo <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#" id="cursos">Cursos</a></li>
                         <li><a href="#" id="conocim">Conocimientos</a></li>
@@ -51,8 +51,8 @@
                         <li><a href="#">Pasatiempos</a></li>
                     </ul>
                 </li>
-                <li><a href="#" id="portfolio"><i class="fa fa-th-large"></i> Portfolio</a></li>
-                <li><a href="#" id="contacto"><i class="fa fa-vcard"></i> Contacto</a></li>
+                <li><a href="#" id="portfolio"><!--i class="fa fa-th-large"></i--> Portfolio</a></li>
+                <li><a href="#" id="contacto"><!--i class="fa fa-vcard"></i--> Contacto</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -126,29 +126,29 @@
     <div class="row">
         <div id="particles-js"></div>
         <div class="col-md-6 col-md-offset-3">
-            <div class="carucel-mind1">
-                <h1 class="particle-h1 text-center">Vivimos en un Mundo Digital</h1>
+            <div class="carucel-tit" id="slideone">
+                <h1 class="particle-h1 text-center white-txt">Vivimos en un Mundo Digital</h1>
                 <hr class="particle-hr">
-                <p class="text-center" style="color: #ffffff">
+                <p class="particle-p text-center white-txt">
                     Hoy la tecnologia esta al alcance de nuestras manos
                     y nos facilita algunas de las tareas
                     que realizamos durante el dia, mejorando nuestro desempeño
                     en diversas actividades.
                 </p>
             </div>
-            <div class="carucel-mind2">
-                <h1 class="particle-h1 text-center">Investigacion y Desarrollo Constante</h1>
+            <div class="carucel-tit hidedown" id="slidetwo">
+                <h1 class="particle-h1 text-center white-txt">Investigacion y Desarrollo Constante</h1>
                 <hr class="particle-hr">
-                <p class="text-center" style="color: #ffffff">
+                <p class="particle-p text-center white-txt">
                     Estar a la vanguardia en ultimas tecnologias nos lleva a estar un
                     paso adelante en el desarrollo de diversas aplicaciones brindando
                     mejores soluciones en las tareas mas complejas.
                 </p>
             </div>
-            <div class="carucel-mind3">
-                <h1 class="particle-h1 text-center">Enfrentado Desafios a Cada Paso</h1>
+            <div class="carucel-tit hidedown" id="slidethree">
+                <h1 class="particle-h1 text-center white-txt">Enfrentado Desafios a Cada Paso</h1>
                 <hr class="particle-hr">
-                <p class="text-center" style="color: #ffffff">
+                <p class="particle-p text-center white-txt">
                     El crecimiento personal crece con cada desafio, aprendiendo nuevas
                     herramientas y tecnologias que mejoran la performance de las aplicaciones.
                 </p>
@@ -441,7 +441,7 @@
         </div><!--/row1-->
         <div class="row">
             <div class="col-md-3">
-                <h4><i class="fa fa-book"></i> Libros Recomendados</h4>
+                <h4><!--i class="fa fa-book"></i--> Libros Recomendados</h4>
                 <div class="list-footer">
                     <ul>
                         <li><a href="" class="foot-link">Html 4</a></li>
@@ -456,7 +456,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <h4><i class="fa fa-link"></i> Links Interesantes</h4>
+                <h4><!--i class="fa fa-link"></i--> Links Interesantes</h4>
                 <div class="list-footer">
                     <ul>
                         <li><a href="" class="foot-link">Bootstrap</a></li>
@@ -489,14 +489,21 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="favicons">
-                    <i class="fa fa-apple fa-lg"></i>
-                    <i class="fa fa-android fa-lg"></i>
-                    <i class="fa fa-stack-overflow fa-lg"></i>
-                    <i class="fa fa-github-alt fa-lg"></i>
-                    <i class="fa fa-font-awesome fa-lg"></i>
-                    <i class="fa fa-html5 fa-lg"></i>
-                    <i class="fa fa-css3 fa-lg"></i>
-                    <i class="fa fa-maxcdn fa-lg"></i>
+                    <div class="circle">
+                        <i class="fa fa-twitter fa-2x"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa fa-instagram fa-2x"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa fa-github fa-2x"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa fa-linkedin fa-2x"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa fa-slack fa-2x"></i>
+                    </div>
                 </div>
             </div>
         </div><!--/row2-->
@@ -508,7 +515,7 @@
     <div class="container">
         <p class="footer-bar">Copyright <i class="fa fa-copyright"></i> 2016. Todos los derechos Reservados
             <i class="fa fa-registered"></i> |
-            <a href="index.html"> www.eugeniovorontsov.com.ar</a>
+            <a href="index.html"> www.eugeniovr.com.ar</a>
         </p>
     </div>
 </div>
@@ -572,7 +579,6 @@
         </ul>
     </div>
 </div><!-- /.modal -->
-
 <!-- /Modal Section-->
 
 <!--Basic JavaScript Plugin-->

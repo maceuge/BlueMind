@@ -233,8 +233,6 @@ section {
     /*border: 3px solid #039be5;*/
 /*}*/
 
-
-
 /* Fin Seccion VARIOS*/
 
 
@@ -299,7 +297,18 @@ section {
 }
 
 .favicons i {
-    padding-left: 21px;
+    /*padding-left: 21px;*/
+}
+
+.circle {
+    display: inline;
+    margin-right: 20px;
+}
+
+.circle i{
+    padding: 12px;
+    border-radius: 50%;
+    border: 1px solid #fff;
 }
 
 .footer-bar {

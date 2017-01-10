@@ -16,29 +16,28 @@
 }
 
 .particle-h1 {
-    margin-top: 30%;
-    color: #fff;
-    opacity: 0.8;
+    font-size: 40px;
+    text-shadow: 0px 0px 20px #000000;
 }
 
 .particle-hr {
     max-width: 350px;
+    opacity: 0.65;
+}
+
+.particle-p {
+    font-size: 22px;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+.carucel-tit {
+    position: absolute;
+    margin-top: 200px;
     opacity: 0.8;
+    transition: all 0.5s ease-in-out;
 }
 
-.carucel-mind1 {
-    display: none;
-}
-
-.carucel-mind2 {
-    display: none;
-}
-
-.carucel-mind3 {
-    display: none;
-}
-
-
-.inview {
-    display: block;
+.hidedown {
+    margin-top: 500px;
+    opacity: 0;
 }

@@ -4,7 +4,7 @@
 
 $(document).ready(function () {
 
-    var carusel = $('.carousel').innerHeight();
+    var carusel = $('.partcontainer').innerHeight();
     var bymi = $('#bymi').innerHeight();
     var estudios = $('#estudios').innerHeight();
     var conocimientos = $('#conocimientos').innerHeight();
@@ -12,7 +12,7 @@ $(document).ready(function () {
     var pfolio = $('#pfolio').innerHeight();
 
     $(window).resize(function () {
-        carusel = $('.carousel').innerHeight();
+        carusel = $('.partcontainer').innerHeight();
         bymi = $('#bymi').innerHeight();
         estudios = $('#estudios').innerHeight();
         conocimientos = $('#conocimientos').innerHeight();

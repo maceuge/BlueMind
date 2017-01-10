@@ -3,29 +3,21 @@
  */
 
 $(document).ready(function () {
-     // $('.carucel-mind')[0].display('block');
-    // var firstimage = $('.carucel-mind')[0];
-    // console.log(firstimage);
-    $('.carucel-mind1').show();
 
     function changeTitle() {
 
-        if ($('.carucel-mind1')) {
-
-            $('.carucel-mind1').hide();
-            $('.carucel-mind2').show();
+        if (!$('#slideone').hasClass('hidedown')) {
+            $('#slideone').addClass('hidedown');
+            $('#slidetwo').removeClass('hidedown');
         }
-        else if ($('.carucel-mind2')) {
-
-            $('.carucel-mind2').hide();
-            $('.carucel-mind3').show();
+        else if (!$('#slidetwo').hasClass('hidedown')) {
+            $('#slidetwo').addClass('hidedown');
+            $('#slidethree').removeClass('hidedown');
         }
-        else if ($('.carucel-mind3')){
-
-            $('.carucel-mind3').hide();
-            $('.carucel-mind1').show();
+        else if (!$('#slidethree').hasClass('hidedown')){
+            $('#slidethree').addClass('hidedown');
+            $('#slideone').removeClass('hidedown');
         }
     }
-
-    setInterval(changeTitle, 3000);
+    setInterval(changeTitle, 12000);
 });

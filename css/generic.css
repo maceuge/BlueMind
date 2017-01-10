@@ -22,10 +22,12 @@
     box-shadow: 1px 4px 8px 0px rgba(24, 157, 212, 0.85);
 }
 
-
-
 .bluelight-grad {
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #039be5 75%);
+}
+
+.white-txt {
+    color: #ffffff;
 }
 
 
