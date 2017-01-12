@@ -110,20 +110,20 @@ section {
 .bg-1 {
     background: url('../img/parallax/estudiosdark.jpg') no-repeat center center fixed;
     color:#fff;
-    background-size:cover;
+    background-size:auto;
     margin-top: 0px;
 }
 
 .bg-2 {
     background: url('../img/parallax/desarrollo.jpg') no-repeat top center fixed;
     color:#fff;
-    background-size:cover;
+    background-size:auto;
 }
 
 .bg-3 {
-    background: url('../img/parallax/footerbluedark.jpg') no-repeat bottom center fixed;
+    background: url('../img/parallax/footerbluedark.jpg') no-repeat top center fixed;
     color:#fff;
-    background-size:cover;
+    background-size:auto;
 }
 
 .footer-section {
@@ -460,7 +460,7 @@ ul.galeria > li img:hover {
 /*Portfolio*/
 
 .ch-grid {
-    margin: 20px 15px;
+    margin: 20px 0px;
     padding: 0;
     list-style: none;
     display: block;

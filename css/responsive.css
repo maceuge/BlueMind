@@ -47,6 +47,57 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+    .particle-h1 {
+        font-size: 20px;
+    }
+    .particle-p {
+        font-size: 15px;
+    }
+    .particle-hr {
+        max-width: 140px;
+    }
+    .partcontainer {
+        min-height: 470px;
+    }
+    #particles-js {
+        height: 470px;
+    }
+    .carucel-tit {
+        margin-top: 150px;
+        padding-right: 20px;
+    }
+
+    .presentacion {
+        margin-bottom: 30px;
+    }
+
+    .homepage {
+        padding-top: 10px;
+    }
+    section {
+        padding-top: 10px;
+    }
+
+    .tag {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .study {
+        min-height: 140px;
+    }
+
+    .circle {
+        margin-right: 17px;
+    }
+
+    .contact {
+        margin-bottom: 40px;
+    }
+
 }
 
 /* Custom, iPhone Retina */
@@ -62,13 +113,48 @@
         max-width: 140px;
     }
     .partcontainer {
-        min-height: 400px;
+        min-height: 470px;
     }
     #particles-js {
-        height: 400px;
+        height: 470px;
     }
     .carucel-tit {
-        margin-top: 100px;
+        margin-top: 150px;
+        padding-right: 20px;
     }
 
+    .presentacion {
+        margin-bottom: 30px;
+    }
+
+    .homepage {
+        padding-top: 10px;
+    }
+    section {
+        padding-top: 10px;
+    }
+
+    .tag {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .study {
+        min-height: 140px;
+    }
+
+    .circle {
+        margin-right: 5px;
+    }
+
+    .footer-section {
+        min-height: 950px;
+    }
+
+    .contact {
+        margin-bottom: 40px;
+    }
 }
