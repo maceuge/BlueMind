@@ -32,15 +32,27 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+    .ch-grid li {
+        margin: 20px 20px 180px 20px;
+    }
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+    .ch-grid li {
+        margin: 20px 20px 180px 20px;
+    }
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+    .navbar {
+        background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #039be5 75%);
+    }
 
     .particle-h1 {
         font-size: 20px;
@@ -99,17 +111,22 @@
 
     .bg-1 {
         background-image: none;
-        background-color: #039be5;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
     }
 
     .bg-2 {
         background-image: none;
-        background-color: #039be5;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
     }
 
     .bg-3 {
         background-image: none;
-        background-color: #555;
+        /*background-color: rgba(17, 23, 69, 1) 100%;*/
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+    .ch-grid li {
+        margin: 20px 20px 180px 20px;
     }
 
 }
@@ -117,6 +134,10 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+    .navbar {
+        background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #039be5 75%);
+    }
+
     .particle-h1 {
         font-size: 20px;
     }
@@ -174,17 +195,22 @@
 
     .bg-1 {
         background-image: none;
-        background-color: #039be5;
+        /*background-color: #039be5;*/
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
     }
 
     .bg-2 {
         background-image: none;
-        background-color: #039be5;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
     }
 
     .bg-3 {
         background-image: none;
-        background-color: #555;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+    .ch-grid li {
+        margin: 20px 20px 180px 20px;
     }
 
 }
@@ -192,6 +218,9 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
+    .navbar {
+        background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #039be5 75%);
+    }
     .particle-h1 {
         font-size: 20px;
     }
@@ -249,17 +278,21 @@
 
     .bg-1 {
         background-image: none;
-        background-color: #039be5;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
     }
 
     .bg-2 {
         background-image: none;
-        background-color: #039be5;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
     }
 
     .bg-3 {
         background-image: none;
-        background-color: #555;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+    .ch-grid li {
+        margin: 20px 20px 180px 20px;
     }
 
 
