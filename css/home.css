@@ -306,7 +306,6 @@ section {
 
 .circle {
     display: inline;
-    margin-right: 20px;
 }
 
 .circle i{
@@ -314,6 +313,10 @@ section {
     border-radius: 7px;
     border: 1px solid #fff;
     transition: all 0.3s ease-in-out;
+}
+
+.face i {
+    padding: 10px 16px;
 }
 
 .twitter i:hover {
@@ -334,6 +337,10 @@ section {
 
 .slack i:hover {
     background-color: #78D4B6;
+}
+
+.face i:hover {
+    background-color: #0061ac;
 }
 
 
