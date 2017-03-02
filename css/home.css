@@ -30,6 +30,7 @@
 .navbar-default .navbar-brand {
     font-size: 20px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -66,6 +67,22 @@
 
 .navbar-default .navbar-toggle {
     background-color: #fff;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #039be5;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+}
+
+.dropdown-menu {
+    background-color: rgba(255,255,255,0.82);
+    border-radius: 3px 3px;
 }
 
 /*Fin Navbar*/
@@ -151,8 +168,9 @@ section {
 .present {
     margin-top: 13px;
     margin-bottom: 13px;
-    font-size: 17px;
+    font-size: 16px;
     color: #4a4a4a;
+    transition: all 0.5s ease-in-out;
 }
 
 .tag {
@@ -162,8 +180,28 @@ section {
 }
 
 .foto-row {
-    border: 1px solid #039be5;
-    height: 400px;
+    margin-top: 14px;
+    margin-bottom: 40px;
+    /*border: 1px solid #039be5;*/
+    /*height: 400px;*/
+}
+
+.tit-hobby {
+    font-size: 22px;
+}
+
+.soundcloud {
+    color: #f50;
+}
+
+.soundcloud:hover, .soundcloud:focus{
+    color: #963d00;
+}
+
+.badge {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right: 7px;
 }
 
 /*Fin de Seccion SOBRE MI*/
@@ -182,12 +220,11 @@ section {
     border: 3px solid rgba(255, 255, 255, 0.4);
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.6);
-    padding: 45px 60px 20px 60px;
     transition: all 0.3s ease-in-out;
 }
 
 .study:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.95);
     border: 3px solid #039be5;
 }
 
@@ -207,9 +244,20 @@ section {
 }
 
 .invest-firebase:hover {
-    background-color: rgba(0, 97, 172, 1);
+    background-color: rgb(0, 71, 141);
     /*background-color: rgba(3, 155, 229, 0.93);*/
     border: 3px solid #ffffff;
+}
+
+.invest-swift:hover {
+    background-color: #b95d30;
+    /*background-color: rgba(0, 97, 172, 1);*/
+    /*background-color: rgba(3, 155, 229, 0.93);*/
+    border: 3px solid #ffffff;
+}
+
+.img-border {
+    border-radius: 20px;
 }
 
 .invest-logo {
@@ -265,6 +313,7 @@ section {
 
 
 /*Footer*/
+
 #footer {
     min-height: 60px;
     background-color:#585858;
@@ -304,48 +353,49 @@ section {
     transition: all 0.2s ease-in-out;
 }
 
-.circle {
-    display: inline;
-}
-
-.circle i{
-    padding: 10px 12px;
-    border-radius: 7px;
-    border: 1px solid #fff;
-    transition: all 0.3s ease-in-out;
-}
-
 .face i {
-    padding: 10px 16px;
+    padding: 1px 2px;
 }
 
-.twitter i:hover {
+
+.twitter:hover {
     background-color: #00aced;
+    color: #ffffff;
 }
 
-.instagram i:hover {
+.instagram:hover {
     background-color: #bc2a8d;
+    color: #ffffff;
 }
 
-.github i:hover {
-    background-color: #333333;
+.github:hover {
+    background-color: #24292e;
+    color: #ffffff;
 }
 
-.linkedin i:hover {
+.linkedin:hover {
     background-color: #007bb6;
+    color: #ffffff;
 }
 
-.slack i:hover {
+.slack:hover {
     background-color: #78D4B6;
+    color: #ffffff;
 }
 
-.face i:hover {
+.face:hover {
     background-color: #0061ac;
+    color: #ffffff;
 }
 
 
 .footer-bar {
-    font-size: 15px;
+    font-size: 17px;
+}
+
+.separe {
+    margin-top: 18px;
+    margin-bottom: 30px;
 }
 
 /*Fin del Footer*/
@@ -369,7 +419,7 @@ section {
     padding: 9px 10px;
     margin-bottom: 0;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 50%;
     transition: all 0.5s ease-in-out;
 }
 
@@ -386,6 +436,7 @@ section {
 
 
 
+
 /*Contacto*/
 
 .form-control {
@@ -399,6 +450,11 @@ section {
 .form-control:focus {
     background-color: rgba(255, 255, 255, 1);
     color: #5c5c5c;
+}
+
+.help-block {
+    margin-top: 3px;
+    margin-bottom: 1px;
 }
 
 /*Fin de contacto*/

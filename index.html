@@ -5,9 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Actor|Exo|Hind+Vadodara|Khand|Maven+Pro|Overpass|Questrial|Rajdhani|Raleway|Teko|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/notifIt.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/generic.css">
     <link rel="stylesheet" href="css/particles.css">
@@ -30,7 +32,7 @@
                 <span class="icon-bar"></span>
             </button>
             <img src="img/avatar.png" class="img-rounded navavatar" alt="Eugenio Vorontsov" width="40" height="40">
-            <a class="navbar-brand" href="index.html"> Eugenio Vorontsov</a>
+            <a class="navbar-brand" id="nav-titpage"> Eugenio Vorontsov</a>
             <!--<span class="recon"> < Web Full Stack Developer /> </span>-->
         </div>
 
@@ -47,9 +49,9 @@
                         <li><a href="#" id="desarrollo">Investigacion y Desarrollo</a></li>
                         <li><a href="#" id="libros">Libros Recomendados</a></li>
                         <li><a href="#" id="links">Links Interesantes</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Aptitudes</a></li>
-                        <li><a href="#">Pasatiempos</a></li>
+                        <!--<li role="separator" class="divider"></li>-->
+                        <!--<li><a href="#">Aptitudes</a></li>-->
+                        <!--<li><a href="#">Pasatiempos</a></li>-->
                     </ul>
                 </li>
                 <li><a href="#" id="portfolio"><!--i class="fa fa-th-large"></i--> Portfolio</a></li>
@@ -69,10 +71,9 @@
                 <h1 class="particle-h1 text-center white-txt">Vivimos en un Mundo Digital</h1>
                 <hr class="particle-hr">
                 <p class="particle-p text-center white-txt">
-                    Hoy la tecnologia esta al alcance de nuestras manos
-                    y nos facilita algunas de las tareas
-                    que realizamos durante el dia, mejorando nuestro desempeño
-                    en diversas actividades.
+                    Hoy la tecnologia esta al alcance de nuestras manos y nos facilita
+                    algunas de las tareas que realizamos durante el dia, mejorando nuestro
+                    desempeño en diversas actividades.
                 </p>
             </div>
             <div class="carucel-tit hidedown" id="slidetwo">
@@ -89,7 +90,7 @@
                 <hr class="particle-hr">
                 <p class="particle-p text-center white-txt">
                     El crecimiento personal crece con cada desafio, aprendiendo nuevas
-                    herramientas y tecnologias que mejoran la performance de las aplicaciones.
+                    herramientas y tecnologias que llevan nuestras ideas a una realidad.
                 </p>
             </div>
         </div>
@@ -108,23 +109,109 @@
     </div><!--/row1-->
     <div class="row">
         <div class="col-md-6 col-sm-12 foto-row">
-            <!--<img src="img/fotoTest.jpg" class="img-thumbnail" alt="" width="450" height="400">-->
+            <img src="img/sobremi/Working2.fw.png" class="img-thumbnail center-block img-border" alt="" width="500" height="400">
         </div>
         <div class="col-md-6 col-sm-12 presentacion">
-            <p class="present">
-                <em>Me considero una persona muy autodidactica y activa, desde hace ya 7 años me estoy
-                desarrollando en el área digital. Soy muy prolijo y exigente en el mismo ámbiente, trato
-                de llevar y adaptar la tecnología a las necesidades de la gente, ser compañero y ayudar
-                en todo lo que pueda, optimizar los procesos para agilizar los pasos en determinadas
-                tareas. No tengo ninguna complejidad en aprender nuevas herramientas de trabajo y adaptarme
-                a las nuevas tecnologías. Al ser autodidáctico investigo y desarrollo constantemente, eso
-                me permite innovar y progresar a cada paso.
-                Realice varios cursos en Desarrollo Web y adquirí nuevos conocimientos dentro del terreno
-                digital que me resulta apasionante. Apuesto a un entorno de trabajo que me permita fortalecer
-                mis conocimientos y seguir desarrollándome profesionalmente dentro del área digital.</em>
+
+            <p class="present" id="allbymi">
+                <em>
+                    Desde hace 15 años empece a desarrollarme en el área técnica al nivel hardware
+                    realizando reparaciones y configuración de pc´s y redes. Hace 7 años empece a
+                    investigar y explorar el mundo del software aprendiendo desarrollar paginas web
+                    para algunos proyectos personales y en este trayecto realice varios cursos en
+                    Desarrollo Web Full Stack adquiriendo nuevos conocimientos dentro del terreno
+                    digital que me resulta apasionante. <br>
+                    Soy muy prolijo y exigente en el mismo ambiente, trato de llevar y adaptar la
+                    tecnología a las necesidades de la gente, optimizando los procesos para agilizar
+                    los pasos en determinadas tareas mas complejas. Al ser autodidáctico investigo
+                    y desarrollo constantemente, eso me permite innovar y progresar a cada paso.
+                    No tengo ninguna complejidad en aprender nuevas herramientas de trabajo y
+                    adaptarme  a las nuevas tecnologías. Soy muy compañero y trato ayudar en lo que pueda.
+                    Apuesto a un entorno de trabajo que me permita fortalecer mis conocimientos y
+                    seguir desarrollándome profesionalmente dentro del área digital.
+                </em>
             </p>
-            <a href="" class="btn bluelight">Aptitudes</a>
-            <a href="" class="btn bluelight">Pasatiempos</a>
+
+            <p class="present hide text-justify" id="aptitud">
+                    <span class="tit-hobby bluelight-txt">Aptitudes</span>
+                <br><br>
+                    <span class="badge">Reparacion de PC</span>
+                <span class="badge">Redes Inalámbricas</span>
+                    <span class="badge">Microsoft Word</span>
+                    <span class="badge">Microsoft Excel</span>
+                    <span class="badge">Microsoft Power Point</span>
+                    <span class="badge">Windows 7/8/10</span>
+                    <span class="badge">Mac OS</span>
+                    <span class="badge">Configuracion S.O.</span>
+                    <span class="badge">Linux</span>
+                    <span class="badge">Adobe Photoshop</span>
+                    <span class="badge">Adobe Fireworks</span>
+                    <span class="badge">Adobe Ilustrator</span>
+                    <span class="badge">Php Storm</span>
+                    <span class="badge">Atom</span>
+                    <span class="badge">XCode</span>
+                    <span class="badge">HTML5</span>
+                    <span class="badge">CSS3</span>
+                    <span class="badge">JavaScript</span>
+                    <span class="badge">PHP</span>
+                <span class="badge">Planificacion Estrategica</span>
+                    <span class="badge">Laravel</span>
+                    <span class="badge">Swift 3</span>
+                    <span class="badge">Test de Hardware</span>
+                    <span class="badge">Ajax</span>
+                    <span class="badge">Bootstrap</span>
+                    <span class="badge">Semantic UI</span>
+                    <span class="badge">React.js</span>
+                    <span class="badge">JQuery</span>
+                    <span class="badge">MySQL</span>
+                    <span class="badge">Git</span>
+                    <span class="badge">GitHub</span>
+                    <span class="badge">Web Full Stack</span>
+                    <span class="badge">Logic Pro X</span>
+                    <span class="badge">Traktor</span>
+                <span class="badge">Soporte Técnico</span>
+                <span class="badge">Lenguaje SASS</span>
+                <span class="badge">Redes</span>
+                <span class="badge">Diseño Web</span>
+
+                <span class="badge">Metodologias Agiles SCRUM</span>
+                <span class="badge">Orientacion a Objetos POO</span>
+                <!--<span class="badge"></span>-->
+                <!--<span class="badge"></span>-->
+                <!--<span class="badge"></span>-->
+                <!--<span class="badge"></span>-->
+                <!--<span class="badge"></span>-->
+                <br>
+            </p>
+
+            <p class="present hide" id="hobby">
+                <em>
+                    <span class="tit-hobby bluelight-txt">Iluminacion Escenica</span><br>
+                    Desde hace 5 años formo parte del movimiento Rock & Vida en el area de iluminacion
+                    en donde me desempeño en diseño, programacion y operacion tanto por consola como
+                    computadora todo el sistema de luces para distintos eventos que se desarrollan
+                    durante del año.
+                    <br><br><br>
+                    <span class="tit-hobby bluelight-txt">Mezcla de Musica Electronica</span><br>
+                    La musica nos apasiona a todos, algunos mas que otros por lo que preferi ir un poco mas alla
+                    involucrandome en el mundo de la Musica Electronica realizando varios cursos para
+                    conocer las tecnicas de mezcla con distintos dispositivos electronicos como Vinilo, Bandejas y
+                    Consola DJ grabando varios Sets propios que les comparto
+                    <a href="https://soundcloud.com/ruber-valtinjam/dj-qplay-set-dance-130-latidos" class="soundcloud" target="_blank">aqui</a>
+                    <i class="fa fa-soundcloud fa-lg soundcloud"></i>.
+                </em>
+            </p>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <a href="" class="btn bluelight" id="btn-aptitud">Aptitudes</a>
+                        <a href="" class="btn bluelight" id="btn-hobby">Hobby</a>
+                        <a href="" class="btn bluelight" id="btn-allbymi">Sobre Mi</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div><!--/row2-->
 </div><!--/container-->
@@ -144,24 +231,24 @@
             <div class="col-md-6">
                 <div class="study">
                     <a class="conocim-link" href="" data-toggle="modal" data-target="#dhModal">
-                        <img class="img-responsive" src="img/logo/logo_digitalhouse.fw.png" alt="" height="180">
+                        <img class="img-responsive center-block" src="img/cursos/dh_log.fw.png" alt="" width="552" height="197">
                     </a>
                 </div>
                 <div class="study">
                     <a class="conocim-link" href="" data-toggle="modal" data-target="#ubaModal">
-                        <img class="img-responsive" src="img/logo/logo_uba.fw.png" alt="" height="180">
+                        <img class="img-responsive center-block" src="img/cursos/uba_log.fw.png" alt="" width="552" height="197">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="study">
                     <a class="conocim-link" href="" data-toggle="modal" data-target="#utnModal">
-                        <img class="img-responsive" src="img/logo/logo_utn.fw.png" alt="" height="180">
+                        <img class="img-responsive center-block" src="img/cursos/utn_log.fw.png" alt="" width="552" height="197">
                     </a>
                 </div>
                 <div class="study">
                     <a class="conocim-link" href="" data-toggle="modal" data-target="#cpiModal">
-                        <img class="img-responsive" src="img/logo/logo_ipc.fw.png" alt="" height="180">
+                        <img class="img-responsive center-block" src="img/cursos/ipc_log.fw.png" alt="" width="552" height="197">
                     </a>
                 </div>
             </div>
@@ -229,11 +316,11 @@
             </div>
         </div><!--/row1-->
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <a href="http://semantic-ui.com/" target="_blank">
                 <div class="invest invest-semantic">
                     <div class="invest-logo">
-                        <img class="img-responsive center-block" src="img/desarrollo/semantic.png" alt="" width="120" height="120">
+                        <img class="img-responsive center-block img-border" src="img/desarrollo/semantic.png" alt="" width="120" height="120">
                     </div>
                     <div class="invest-title">
                         <h1 class="text-center">Semantic UI</h1>
@@ -249,11 +336,11 @@
                 </div>
                 </a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <a href="https://firebase.google.com/?hl=es-419" target="_blank">
                 <div class="invest invest-firebase">
                     <div class="invest-logo">
-                        <img class="img-responsive center-block" src="img/desarrollo/firebase.fw.png" alt="" width="120" height="120">
+                        <img class="img-responsive center-block img-border" src="img/desarrollo/firebase.fw.png" alt="" width="120" height="120">
                     </div>
                     <div class="invest-title">
                         <h1 class="text-center">Firebase</h1>
@@ -267,6 +354,26 @@
                         </p>
                     </div>
                 </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="http://www.apple.com/es/swift/" target="_blank">
+                    <div class="invest invest-swift">
+                        <div class="invest-logo">
+                            <img class="img-responsive center-block img-border" src="img/desarrollo/swift3.fw.png" alt="" width="120" height="120">
+                        </div>
+                        <div class="invest-title">
+                            <h1 class="text-center">Swift 3</h1>
+                        </div>
+                        <div class="invest-coment">
+                            <p class="text-center">
+                                Swift es un intuitivo lenguaje de programación creado por Apple que permite
+                                diseñar apps para iOS, Mac, el Apple TV y el Apple Watch. Está pensado para
+                                dar a los desarrolladores más libertad que nunca. Como es de código abierto
+                                y tan fácil de usar, con Swift cualquiera puede hacer realidad sus ideas.
+                            </p>
+                        </div>
+                    </div>
                 </a>
             </div>
         </div><!--/row2-->
@@ -292,7 +399,7 @@
                             <h3>Qplay</h3>
                             <p>Eugenio Vorontsov<a href="https://github.com/maceuge/qplayLaravel" target="_blank">Ver Proyecto en GitHub</a></p>
                         </div>
-                        <div class="ch-thumb ch-img-1"></div>
+                        <div class="ch-thumb ch-img-1" id="portf-moveblk"></div>
                     </div>
                     <div class="portfolio-coment">
                         <p class="text-center">
@@ -364,7 +471,7 @@
             </div>
         </div><!--/row1-->
         <div class="row">
-            <div class="col-md-3 col-xs-12">
+            <div class="col-xs-12 col-md-3 col-lg-3">
                 <h4><!--i class="fa fa-book"></i--> Libros Recomendados</h4>
                 <div class="list-footer">
                     <ul>
@@ -392,7 +499,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-xs-12">
+            <div class="col-xs-12 col-md-2 col-lg-2">
                 <h4><!--i class="fa fa-link"></i--> Links Interesantes</h4>
                 <div class="list-footer">
                     <ul>
@@ -407,67 +514,92 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-5 col-md-offset-1 col-xs-12 contact">
+
+            <div class="col-xs-12 col-md-4 col-lg-4 contact">
                 <h4><!--i class="fa fa-envelope-o"--></i> Contacto</h4>
-                <form class="" id="form">
+                <form class="form" action="" method="post" id="sendmail">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="inputEmail1" placeholder="Asunto">
+                        <span class="help-block"></span>
+                        <input type="text" class="form-control" name="asunto" id="about" placeholder="Asunto" maxlength="30">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        <span class="help-block"></span>
+                        <input type="text" class="form-control" name="email" id="emailsender" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="4" value="Comentario..."></textarea>
+                        <span class="help-block"></span>
+                        <textarea class="form-control" name="comentario" id="comment" placeholder="Comentario..." rows="4" maxlength="250"></textarea>
                     </div>
-                        <button type="submit" class="btn bluemiddle center-block">Enviar</button>
+                        <button type="submit" class="btn bluemiddle center-block" id="enviar">Enviar <i class="fa fa-paper-plane"></i> </button>
                 </form>
             </div>
-        </div><!--/row2-->
 
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <h4><!--i class="fa fa-envelope-o"--></i> Perfil LinkedIn</h4>
+                <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="light" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>-->
+                <!--<div class="text-center">-->
+                    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="dark" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>
+                <!--</div>-->
+                <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>-->
+            </div>
+
+        </div><!--/row2-->
         <div class="row">
-            <div class="col-xs-12 col-md-5  col-lg-6">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <hr>
                 <div class="row">
-                    <div class="col-xs-2 col-md-2 col-lg-2">
-                        <a class="circle twitter" href="https://twitter.com/eugenio_vr" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                    <div class="col-md-6">
+                        <div class="row separe">
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default github" href="https://github.com/search?utf8=%E2%9C%93&q=maceuge%2F&type=Repositories&ref=searchresults" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default linkedin" href="https://www.linkedin.com/in/eugenio-vorontsov-8319a248/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default slack"><i class="fa fa-slack fa-2x"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-2 col-md-2 col-lg-2">
-                        <a class="circle instagram" href="https://www.instagram.com/evgenivr/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+
+                    <div class="col-md-6">
+                        <div class="row separe">
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default twitter" href="https://twitter.com/eugenio_vr" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default instagram" href="https://www.instagram.com/evgenivr/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default face"><i class="fa fa-facebook fa-2x"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-2 col-md-2 col-lg-2">
-                        <a class="circle github" href=""><i class="fa fa-github fa-2x"></i></a>
-                    </div>
-                    <div class="col-xs-2 col-md-2 col-lg-2">
-                        <a class="circle linkedin" href=""><i class="fa fa-linkedin fa-2x"></i></a>
-                    </div>
-                    <div class="col-xs-2 col-md-2 col-lg-2">
-                        <a class="circle slack" href=""><i class="fa fa-slack fa-2x"></i></a>
-                    </div>
-                    <!--<div class="col-xs-2 col-md-2 col-lg-2">-->
-                        <!--<a class="circle face" href=""><i class="fa fa-facebook fa-2x"></i></a>-->
-                    <!--</div>-->
 
                 </div>
             </div>
         </div><!--/row3-->
+
     </div>
 </section>
 <!--/parallax 3-->
 
+<!--Footer Bar-->
 <div class="footerbar-color text-center" id="footer">
     <div class="container">
         <p class="footer-bar">Copyright <i class="fa fa-copyright"></i> 2016. Todos los derechos Reservados
             <i class="fa fa-registered"></i> |
-            <a href="index.html"> www.eugeniovr.com.ar</a>
+            <a href="https://maceuge.github.io/"> www.maceuge.github.io</a>
         </p>
     </div>
 </div>
+<!--/footer bar-->
 
 <!--Boton Scroll Top-->
 <div class="top-button">
-    <a class="btn-rolltop" href=""><i class="fa fa-chevron-up fa-lg"></i></a>
+    <a class="btn-rolltop" href=""><i class="fa fa-arrow-up fa-lg"></i></a>
 </div>
 <!--/Boton Scroll Top-->
-
 
 
 <!--Modal Section-->
@@ -523,10 +655,13 @@
 </div><!-- /.modal -->
 <!-- /Modal Section-->
 
-<!--Basic JavaScript Plugin-->
+<!--JavaScript Plugin-->
 <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-<!--<script type="text/javascript" src="js/parsley.js"></script>-->
 <script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/email.min.js"></script>
+<script type="text/javascript" src="js/email-init.js"></script>
+<script type="text/javascript" src="js/form-validate.js"></script>
+<script type="text/javascript" src="js/notifIt.js"></script>
 <script type="text/javascript" src="js/parallax.js"></script>
 <script type="text/javascript" src="js/navanim.js"></script>
 <script type="text/javascript" src="js/rolltop.js"></script>
@@ -535,16 +670,9 @@
 <script type="text/javascript" src="js/particles.min.js"></script>
 <script type="text/javascript" src="js/partic-start.js"></script>
 <script type="text/javascript" src="js/carucel-particle.js"></script>
-
-
-<!--<script type="text/javascript">-->
-    <!--$('#form').parsley();-->
-<!--//</script>-->
-
-<!--<script type="text/javascript" src="js/animate-scroll.js"></script>-->
-<!--<script>-->
-    <!--$(document).animateScroll();-->
-<!--//</script>-->
+<script type="text/javascript" src="js/sobremi.js"></script>
+<script type="text/javascript" src="js/randomcolor.js"></script>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 <!--Fin de JavaScript Plugins-->
 
