@@ -476,7 +476,7 @@
                 <div class="list-footer">
                     <ul>
                         <li>
-                            <a href="http://www.freelibros.org/programacion/codigo-limpio-robert-c-martin.html" class="foot-link" target="_blank">
+                            <a href="https://www.casadellibro.com/libro-codigo-limpio/9788441532106/2007424" class="foot-link" target="_blank">
                                 Codigo Limpio
                             </a>
                         </li>
@@ -486,16 +486,30 @@
                             </a>
                         </li>
                         <li>
-                            <a href="http://shop.oreilly.com/product/9780596517748.do" class="foot-link">
+                            <a href="http://shop.oreilly.com/product/9780596517748.do" class="foot-link" target="_blank">
                                 JavaScript: The Good Parts
                             </a>
                         </li>
 
-                        <li><a href="" class="foot-link">Lo mejor de JavaScript</a></li>
-                        <li><a href="" class="foot-link">Fundamentos de Programacion</a></li>
-                        <li><a href="" class="foot-link">Adobe Photoshop</a></li>
-                        <li><a href="" class="foot-link">Photoshop Secrets</a></li>
-                        <li><a href="" class="foot-link">W3School</a></li>
+                        <li>
+                            <a href="http://eloquentjavascript.net/" class="foot-link" target="_blank">Eloquent JavaScript</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.amazon.com/exec/obidos/ISBN=0201633612/portlandpatternrA/" class="foot-link" target="_blank">Design Patterns</a>
+                        </li>
+
+                        <li>
+                            <a href="http://shop.oreilly.com/product/0636920022251.do" class="foot-link" target="_blank">Code Simplicity</a>
+                        </li>
+
+                        <li>
+                            <a href="http://shop.oreilly.com/product/0636920033868.do" class="foot-link" target="_blank">Modern PHP</a>
+                        </li>
+
+                        <li>
+                            <a href="Photoshop Secrets of the Pros" class="foot-link" target="_blank">Photoshop Secrets</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -557,7 +571,13 @@
                                 <a class="btn btn-default linkedin" href="https://www.linkedin.com/in/eugenio-vorontsov-8319a248/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
                             </div>
                             <div class="col-xs-4 col-md-4 col-lg-4 text-center">
-                                <a class="btn btn-default slack"><i class="fa fa-slack fa-2x"></i></a>
+                                <!--<a class="btn btn-default slack"><i class="fa fa-slack fa-2x"></i></a>-->
+
+                                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" title="Slack to Me" data-content="Mensaje Slack, Proximamente...">
+                                    <i class="fa fa-slack fa-2x"></i>
+                                </button>
+
+
                             </div>
                         </div>
                     </div>
@@ -673,6 +693,12 @@
 <script type="text/javascript" src="js/sobremi.js"></script>
 <script type="text/javascript" src="js/randomcolor.js"></script>
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover({ html : true });
+    });
+</script>
 
 <!--Fin de JavaScript Plugins-->
 
