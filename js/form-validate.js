@@ -101,7 +101,7 @@ $(document).ready(function () {
                         autohide: true,
                         offset: 55,
                         fade: true,
-                        timeout: 12000,
+                        timeout: 10000,
                         width: 300,
                     });
 
@@ -111,7 +111,7 @@ $(document).ready(function () {
                     errorSelect[2].setAttribute("class","form-group");
                     $('#enviar')[0].blur();
                     $('#borrar').fadeOut(500);
-
+                    $('#borrar').removeClass('fadeInLeft').addClass('fadeOutLeft');
 
                 },
                 function(error) {
@@ -134,7 +134,8 @@ $(document).ready(function () {
             validarForm.validarMail();
             validarForm.validarComentario();
             $('#enviar')[0].blur();
-            $('#borrar').fadeIn(500);
+            $('#borrar').fadeIn(700);
+            $('#borrar').removeClass('fadeOutLeft').addClass('fadeInLeft');
         }
     };
 
@@ -148,7 +149,8 @@ $(document).ready(function () {
         errorDetail[1].innerHTML = "";
         errorDetail[2].innerHTML = "";
         $('#enviar')[0].blur();
-        $('#borrar').fadeOut(500);
+        $('#borrar').fadeOut(700);
+        $('#borrar').removeClass('fadeInLeft').addClass('fadeOutLeft');
     });
 
 });  // fin window onload

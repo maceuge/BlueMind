@@ -275,7 +275,9 @@ section {
     padding: 15px 35px;
 }
 
-
+.img-middle {
+    vertical-align: middle;
+}
 
 
 .know-box {
@@ -542,7 +544,6 @@ section {
 .form-control {
     border: 1px solid #aaaaaa;
     border-radius: 3px;
-
     transition: all 0.4s ease-in-out;
 }
 
@@ -559,6 +560,10 @@ section {
 .cont-form {
     background-color: rgba(255, 255, 255, 0.20);
     color: #ffffff;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.20) inset;
 }
 
 /*Fin de contacto*/
