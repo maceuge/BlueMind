@@ -137,18 +137,21 @@ section {
     color:#fff;
     background-size:auto;
     margin-top: 0px;
+    overflow: hidden;
 }
 
 .bg-2 {
     background: url('../img/parallax/desarrollo.jpg') no-repeat top center fixed;
     color:#fff;
     background-size:auto;
+    overflow: hidden;
 }
 
 .bg-3 {
     background: url('../img/parallax/footerbluedark.jpg') no-repeat top center fixed;
     color:#fff;
     background-size:auto;
+    overflow: hidden;
 }
 
 .footer-section {
@@ -232,9 +235,9 @@ section {
     min-height: 390px;
     margin-top: 20px;
     margin-bottom: 30px;
-    border: 3px solid rgba(255, 255, 255, 0.4);
+    /*border: 3px solid rgba(255, 255, 255, 0.4);*/
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.2);
+    /*background-color: rgba(255, 255, 255, 0.2);*/
     transition: all 0.3s ease-in-out;
 }
 
