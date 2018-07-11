@@ -19,11 +19,11 @@ $(document).ready(function () {
 
    $('.btn-rolltop').click(function (evt) {
        evt.preventDefault();
-       $('body').animate({scrollTop: 0}, 1200);
+       $('html').animate({scrollTop: 0}, 1200);
    });
 
     $('#nav-titpage').click(function (evt) {
         evt.preventDefault();
-        $('body').animate({scrollTop: 0}, 1200);
+        $('html').animate({scrollTop: 0}, 1200);
     });
 });

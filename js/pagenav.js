@@ -23,32 +23,32 @@ $(document).ready(function () {
 
     $('#sobremi').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: carusel - 50}, 500);
+        $('html').animate({scrollTop: carusel - 50}, 500);
     })
 
     $('#cursos').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: (carusel + bymi) - 50}, 500);
+        $('html').animate({scrollTop: (carusel + bymi) - 50}, 500);
     })
 
     $('#conocim').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: (carusel + bymi + estudios) - 50}, 500);
+        $('html').animate({scrollTop: (carusel + bymi + estudios) - 50}, 500);
     })
 
     $('#desarrollo').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: (carusel + bymi + estudios + conocimientos) - 50}, 500);
+        $('html').animate({scrollTop: (carusel + bymi + estudios + conocimientos) - 50}, 500);
     })
 
     $('#portfolio').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: (carusel + bymi + estudios + conocimientos + desarollo) - 50}, 500);
+        $('html').animate({scrollTop: (carusel + bymi + estudios + conocimientos + desarollo) - 50}, 500);
     })
 
     $('#contacto, #libros, #links').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: $(window).innerHeight() * 10}, 1200);
+        $('html').animate({scrollTop: $(window).innerHeight() * 10}, 1200);
     })
 
 });
