@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Lato|Rajdhani|Quicksand:300|Cairo:300" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -24,105 +24,106 @@
     </script>
     <title>Eugenio VR</title>
 </head>
+
 <body>
 
 
-<!--Comienzo de Navbar-->
-<div class="nav-background"></div> <!--Color de fondo de Navbar q aparece al scrolling-->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <!--Comienzo de Navbar-->
+    <div class="nav-background"></div>
+    <!--Color de fondo de Navbar q aparece al scrolling-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <img src="img/avatar.png" class="img-rounded navavatar" alt="Eugenio Vorontsov" width="40" height="40">
-            <a class="navbar-brand" id="nav-titpage"> Eugenio Vorontsov</a>
-            <!--<span class="recon"> < Web Full Stack Developer /> </span>-->
+                <img src="img/avatar.png" class="img-rounded navavatar" alt="Eugenio Vorontsov" width="40" height="40">
+                <a class="navbar-brand" id="nav-titpage"> Eugenio Vorontsov</a>
+                <!--<span class="recon"> < Web Full Stack Developer /> </span>-->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" id="sobremi"><!--i class="fa fa-user-circle-o"></i--> Sobre Mi</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <!--i class="fa fa-flask"></i-->Desarrollo <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" id="cursos">Cursos</a></li>
+                            <li><a href="#" id="conocim">Conocimientos</a></li>
+                            <li><a href="#" id="desarrollo">Investigacion y Desarrollo</a></li>
+                            <li><a href="#" id="libros">Libros Recomendados</a></li>
+                            <li><a href="#" id="links">Links Interesantes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="https://github.com/maceuge/BlueMind" target="_blank">Ver Proyecto en GitHub <i class="fa fa-github-alt"></i></a></li>
+                            <!--<li><a href="#">Pasatiempos</a></li>-->
+                        </ul>
+                    </li>
+                    <li><a href="#" id="portfolio"><!--i class="fa fa-th-large"></i--> Portfolio</a></li>
+                    <li><a href="#" id="contacto"><!--i class="fa fa-vcard"></i--> Contacto</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--Fin del Navbar-->
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" id="sobremi"><!--i class="fa fa-user-circle-o"></i--> Sobre Mi</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        <!--i class="fa fa-flask"></i--> Desarrollo <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#" id="cursos">Cursos</a></li>
-                        <li><a href="#" id="conocim">Conocimientos</a></li>
-                        <li><a href="#" id="desarrollo">Investigacion y Desarrollo</a></li>
-                        <li><a href="#" id="libros">Libros Recomendados</a></li>
-                        <li><a href="#" id="links">Links Interesantes</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="https://github.com/maceuge/BlueMind" target="_blank">Ver Proyecto en GitHub <i class="fa fa-github-alt"></i></a></li>
-                        <!--<li><a href="#">Pasatiempos</a></li>-->
-                    </ul>
-                </li>
-                <li><a href="#" id="portfolio"><!--i class="fa fa-th-large"></i--> Portfolio</a></li>
-                <li><a href="#" id="contacto"><!--i class="fa fa-vcard"></i--> Contacto</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-<!--Fin del Navbar-->
-
-<!--Particle-->
-<div class="container-fluid partcontainer">
-    <div class="row">
-        <div id="particles-js"></div>
-        <div class="col-md-6 col-md-offset-3">
-            <div class="carucel-tit" id="slideone">
-                <h1 class="particle-h1 text-center white-txt">Vivimos en un Mundo Digital</h1>
-                <hr class="particle-hr">
-                <p class="particle-p text-center white-txt">
-                    Hoy la tecnologia esta al alcance de nuestras manos y nos facilita
-                    algunas de las tareas que realizamos durante el dia, mejorando nuestro
-                    desempeño en diversas actividades.
-                </p>
-            </div>
-            <div class="carucel-tit hidedown" id="slidetwo">
-                <h1 class="particle-h1 text-center white-txt">Investigacion y Desarrollo Constante</h1>
-                <hr class="particle-hr">
-                <p class="particle-p text-center white-txt">
-                    Estar a la vanguardia en ultimas tecnologias nos lleva a estar un
-                    paso adelante en el desarrollo de diversas aplicaciones brindando
-                    mejores soluciones en las tareas mas complejas.
-                </p>
-            </div>
-            <div class="carucel-tit hidedown" id="slidethree">
-                <h1 class="particle-h1 text-center white-txt">Enfrentado Desafios a Cada Paso</h1>
-                <hr class="particle-hr">
-                <p class="particle-p text-center white-txt">
-                    El crecimiento personal crece con cada desafio, aprendiendo nuevas
-                    herramientas y tecnologias que llevan nuestras ideas a una realidad.
-                </p>
+    <!--Particle-->
+    <div class="container-fluid partcontainer">
+        <div class="row">
+            <div id="particles-js"></div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="carucel-tit" id="slideone">
+                    <h1 class="particle-h1 text-center white-txt">Vivimos en un Mundo Digital</h1>
+                    <hr class="particle-hr">
+                    <p class="particle-p text-center white-txt">
+                        Hoy la tecnologia esta al alcance de nuestras manos y nos facilita algunas de las tareas que realizamos durante el dia, mejorando nuestro desempeño en diversas actividades.
+                    </p>
+                </div>
+                <div class="carucel-tit hidedown" id="slidetwo">
+                    <h1 class="particle-h1 text-center white-txt">Investigacion y Desarrollo Constante</h1>
+                    <hr class="particle-hr">
+                    <p class="particle-p text-center white-txt">
+                        Estar a la vanguardia en ultimas tecnologias nos lleva a estar un paso adelante en el desarrollo de diversas aplicaciones brindando mejores soluciones en las tareas mas complejas.
+                    </p>
+                </div>
+                <div class="carucel-tit hidedown" id="slidethree">
+                    <h1 class="particle-h1 text-center white-txt">Enfrentado Desafios a Cada Paso</h1>
+                    <hr class="particle-hr">
+                    <p class="particle-p text-center white-txt">
+                        El crecimiento personal crece con cada desafio, aprendiendo nuevas herramientas y tecnologias que llevan nuestras ideas a una realidad.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</div><!--/container-->
-<!--Fin de particle-->
+    <!--/container-->
+    <!--Fin de particle-->
 
-<!--Sobre mi-->
-<div class="container homepage" id="bymi">
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center"><span class="tag">&lt;</span>Sobre Mi<span class="tag"> /&gt;</span></h1>
-            <hr>
-            <h4 class="text-center">Hola! Me presento...</h4>
+    <!--Sobre mi-->
+    <div class="container homepage" id="bymi">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center"><span class="tag">&lt;</span>Sobre Mi<span class="tag"> /&gt;</span></h1>
+                <hr>
+                <h4 class="text-center">Hola! Me presento...</h4>
+            </div>
         </div>
-    </div><!--/row1-->
-    <div class="row">
-        <div class="col-md-6 col-sm-12 foto-row">
-            <img src="img/sobremi/Working2.fw.png" class="img-photo img-thumbnail center-block img-border" alt="" width="500" height="400">
-        </div>
-        <div class="col-md-6 col-sm-12 presentacion">
+        <!--/row1-->
+        <div class="row">
+            <div class="col-md-6 col-sm-12 foto-row">
+                <img src="img/sobremi/Working2.fw.png" class="img-photo img-thumbnail center-block img-border" alt="" width="500" height="400">
+            </div>
+            <div class="col-md-6 col-sm-12 presentacion">
 
-            <p class="present" id="allbymi">
-                <em>
+                <p class="present" id="allbymi">
+                    <em>
                     Desde hace 15 años empece a desarrollarme en el área técnica al nivel hardware
                     realizando reparaciones y configuración de pc´s y redes. Hace tiempo empece a
                     investigar y explorar el mundo del software aprendiendo desarrollar paginas web
@@ -134,17 +135,18 @@
                     los pasos en determinadas tareas mas complejas. Al ser autodidáctico investigo
                     y desarrollo constantemente, eso me permite innovar y progresar a cada paso.
                     No tengo ninguna complejidad en aprender nuevas herramientas de trabajo y
-                    adaptarme  a las nuevas tecnologías. Soy muy compañero y trato ayudar en lo que pueda.
+                    adaptarme
+ a las nuevas tecnologías. Soy muy compañero y trato ayudar en lo que pueda.
                     Apuesto a un entorno de trabajo que me permita fortalecer mis conocimientos y
                     seguir desarrollándome profesionalmente dentro del área digital.
                 </em>
-            </p>
+                </p>
 
-            <p class="present hide text-justify" id="aptitud">
+                <p class="present hide text-justify" id="aptitud">
                     <span class="tit-hobby bluelight-txt">Aptitudes</span>
-                <br><br>
+                    <br><br>
                     <span class="badge">Reparacion de PC</span>
-                <span class="badge">Redes Inalámbricas</span>
+                    <span class="badge">Redes Inalámbricas</span>
                     <span class="badge">Microsoft Word</span>
                     <span class="badge">Microsoft Excel</span>
                     <span class="badge">Microsoft Power Point</span>
@@ -162,7 +164,7 @@
                     <span class="badge">CSS3</span>
                     <span class="badge">JavaScript</span>
                     <span class="badge">PHP</span>
-                <span class="badge">Planificacion Estrategica</span>
+                    <span class="badge">Planificacion Estrategica</span>
                     <span class="badge">Laravel</span>
                     <span class="badge">Swift 3</span>
                     <span class="badge">Test de Hardware</span>
@@ -177,23 +179,23 @@
                     <span class="badge">Web Full Stack</span>
                     <span class="badge">Logic Pro X</span>
                     <span class="badge">Traktor</span>
-                <span class="badge">Soporte Técnico</span>
-                <span class="badge">Lenguaje SASS</span>
-                <span class="badge">Redes</span>
-                <span class="badge">Diseño Web</span>
+                    <span class="badge">Soporte Técnico</span>
+                    <span class="badge">Lenguaje SASS</span>
+                    <span class="badge">Redes</span>
+                    <span class="badge">Diseño Web</span>
 
-                <span class="badge">Metodologias Agiles SCRUM</span>
-                <span class="badge">Orientacion a Objetos POO</span>
-                <!--<span class="badge"></span>-->
-                <!--<span class="badge"></span>-->
-                <!--<span class="badge"></span>-->
-                <!--<span class="badge"></span>-->
-                <!--<span class="badge"></span>-->
-                <br>
-            </p>
+                    <span class="badge">Metodologias Agiles SCRUM</span>
+                    <span class="badge">Orientacion a Objetos POO</span>
+                    <!--<span class="badge"></span>-->
+                    <!--<span class="badge"></span>-->
+                    <!--<span class="badge"></span>-->
+                    <!--<span class="badge"></span>-->
+                    <!--<span class="badge"></span>-->
+                    <br>
+                </p>
 
-            <p class="present hide" id="hobby">
-                <em>
+                <p class="present hide" id="hobby">
+                    <em>
                     <span class="tit-hobby bluelight-txt">Iluminacion Escenica</span><br>
                     Desde hace 5 años formo parte del movimiento Rock & Vida en el area de iluminacion
                     en donde me desempeño en diseño, programacion y operacion tanto por consola como
@@ -208,541 +210,619 @@
                     <a href="https://soundcloud.com/ruber-valtinjam/dj-qplay-set-dance-130-latidos" class="soundcloud" target="_blank">aqui</a>
                     <i class="fa fa-soundcloud fa-lg soundcloud"></i>.
                 </em>
-            </p>
+                </p>
 
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="col-md-6 col-md-offset-3 text-center">
+                            <a href="" class="btn bluelight" id="btn-aptitud">Aptitudes</a>
+                            <a href="" class="btn bluelight" id="btn-hobby">Hobby</a>
+                            <a href="" class="btn bluelight" id="btn-allbymi">Sobre Mi</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--/row2-->
+    </div>
+    <!--/container-->
+    <!--Fin de Sobre Mi-->
+
+    <!--parallax 1 Estudios -->
+    <section class="bg-1" id="estudios">
+        <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <div class="col-md-6 col-md-offset-3 text-center">
-                        <a href="" class="btn bluelight" id="btn-aptitud">Aptitudes</a>
-                        <a href="" class="btn bluelight" id="btn-hobby">Hobby</a>
-                        <a href="" class="btn bluelight" id="btn-allbymi">Sobre Mi</a>
+                <div class="col-md-12">
+                    <h1 class="text-center"><span class="tag">&lt;</span>Cursos<span class="tag"> /&gt;</span></h1>
+                    <hr>
+                    <h4 class="text-center">Cursos Finalizados y Certificados</h4>
+                </div>
+            </div>
+            <!--/row1-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="study">
+                        <a class="conocim-link" href="" data-toggle="modal" data-target="#dhModal">
+                            <img class="img-responsive center-block img-middle" src="img/cursos/dh_log.fw.png" alt="" width="552" height="197">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="study">
+                        <a class="conocim-link" href="" data-toggle="modal" data-target="#utnModal">
+                            <img class="img-responsive center-block" src="img/cursos/utn_log.fw.png" alt="" width="552" height="197">
+                        </a>
                     </div>
                 </div>
             </div>
-
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="study">
+                        <a class="conocim-link" href="" data-toggle="modal" data-target="#ubaModal">
+                            <img class="img-responsive center-block" src="img/cursos/uba_log.fw.png" alt="" width="552" height="197">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="study">
+                        <a class="conocim-link" href="" data-toggle="modal" data-target="#cpiModal">
+                            <img class="img-responsive center-block" src="img/cursos/ipc_log.fw.png" alt="" width="552" height="197">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="study">
+                        <a class="conocim-link" href="" data-toggle="modal" data-target="">
+                            <img class="img-responsive center-block" src="img/cursos/udemy_log.fw.png" alt="" width="552" height="197">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="study">
+                        <a class="conocim-link" href="" data-toggle="modal" data-target="">
+                            <img class="img-responsive center-block" src="img/cursos/plural_log.fw.png" alt="" width="552" height="197">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div><!--/row2-->
-</div><!--/container-->
-<!--Fin de Sobre Mi-->
+    </section>
+    <!--/parallax 1-->
 
-<!--parallax 1 Estudios -->
-<section class="bg-1" id="estudios">
-    <div class="container">
+    <!--Conocimientos-->
+    <div class="container homepage" id="conocimientos">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center"><span class="tag">&lt;</span>Cursos<span class="tag"> /&gt;</span></h1>
+                <h1 class="text-center"><span class="tag">&lt;</span>Conocimientos<span class="tag"> /&gt;</span></h1>
                 <hr>
-                <h4 class="text-center">Cursos Finalizados y Certificados</h4>
-            </div>
-        </div><!--/row1-->
-        <div class="row">
-            <div class="col-md-6">
-                <div class="study">
-                    <a class="conocim-link" href="" data-toggle="modal" data-target="#dhModal">
-                        <img class="img-responsive center-block img-middle" src="img/cursos/dh_log.fw.png" alt="" width="552" height="197">
-                    </a>
-                </div>
-                <div class="study">
-                    <a class="conocim-link" href="" data-toggle="modal" data-target="#ubaModal">
-                        <img class="img-responsive center-block" src="img/cursos/uba_log.fw.png" alt="" width="552" height="197">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="study">
-                    <a class="conocim-link" href="" data-toggle="modal" data-target="#utnModal">
-                        <img class="img-responsive center-block" src="img/cursos/utn_log.fw.png" alt="" width="552" height="197">
-                    </a>
-                </div>
-                <div class="study">
-                    <a class="conocim-link" href="" data-toggle="modal" data-target="#cpiModal">
-                        <img class="img-responsive center-block" src="img/cursos/ipc_log.fw.png" alt="" width="552" height="197">
-                    </a>
-                </div>
+                <h4 class="text-center">Adquiridos en los Cursos o de Investigacion Propia</h4>
             </div>
         </div>
-    </div>
-</section>
-<!--/parallax 1-->
-
-<!--Conocimientos-->
-<div class="container homepage" id="conocimientos">
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center"><span class="tag">&lt;</span>Conocimientos<span class="tag"> /&gt;</span></h1>
-            <hr>
-            <h4 class="text-center">Adquiridos en los Cursos o de Investigacion Propia</h4>
-        </div>
-    </div><!--/row1-->
-    <div class="row know-box">
-         <ul class="galeria">
-             <!--fila 1-->
-              <li class="box"><a href=""><img src="img/logoc/css3.fw.png" /></a></li>
-              <li class="box"><img src="img/grid_empty.fw.png" /></li>
-              <li class="box"><a href=""><img src="img/logoc/html5.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/php.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/laravel.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-             <!--fila 2-->
-              <li class="box"><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/bootstrap.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/photoshop.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/jquery.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/fireworks.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/mysql.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/json.fw.png" /></a></li>
-             <!--fila 3-->
-              <li class="box"><a href=""><img src="img/logoc/sass.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/js.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/ajax.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/react.fw.png" /></a></li>
-              <li class="box"><a href=""><img src="img/logoc/github.fw.png" /></a></li>
-         </ul>
-    </div><!--/row2-->
-</div><!--/container-->
-<!--Fin de Conocimientos-->
-
-<!--parallax 2 Desarrollo -->
-<section class="bg-2" id="desarollo">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="text-center"><span class="tag">&lt;</span>Investigacion y Desarrollo<span class="tag"> /&gt;</span></h1>
-                <hr>
-                <h4 class="text-center">Tecnologias que estoy investigando actualmente para aplicaciones varias.</h4>
-            </div>
-        </div><!--/row1-->
-        <div class="row">
-            <div class="col-md-4">
-                <a href="http://semantic-ui.com/" target="_blank">
-                <div class="invest invest-semantic">
-                    <div class="invest-logo">
-                        <img class="img-responsive center-block img-border" src="img/desarrollo/semantic.png" alt="" width="120" height="120">
-                    </div>
-                    <div class="invest-title">
-                        <h1 class="text-center">Semantic UI</h1>
-                    </div>
-                    <div class="invest-coment">
-                        <p class="text-center">
-                            Semantic UI es un framework para crear el diseño de interfaces de manera
-                            responsive utilizando HTML/CSS legible. Empezó su andadura en 2013 y actualmente
-                            va por la versión 2.2.  Viene integrado con otros frameworks o librerías como
-                            son Angular, React, Ember o Meteor.
-                        </p>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="https://firebase.google.com/?hl=es-419" target="_blank">
-                <div class="invest invest-firebase">
-                    <div class="invest-logo">
-                        <img class="img-responsive center-block img-border" src="img/desarrollo/firebase.fw.png" alt="" width="120" height="120">
-                    </div>
-                    <div class="invest-title">
-                        <h1 class="text-center">Firebase</h1>
-                    </div>
-                    <div class="invest-coment">
-                        <p class="text-center">
-                            Firebase es la nueva y mejorada plataforma de desarrollo móvil en la nube
-                            de Google. Se trata de una plataforma disponible para diferentes plataformas
-                            (Android, iOS, web), con lo que de esta forma presentan una alternativa
-                            seria a otras opciones para ahorro de tiempo en el desarrollo como Xamarin.
-                        </p>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="http://www.apple.com/es/swift/" target="_blank">
-                    <div class="invest invest-swift">
-                        <div class="invest-logo">
-                            <img class="img-responsive center-block img-border" src="img/desarrollo/swift3.fw.png" alt="" width="120" height="120">
-                        </div>
-                        <div class="invest-title">
-                            <h1 class="text-center">Swift 3</h1>
-                        </div>
-                        <div class="invest-coment">
-                            <p class="text-center">
-                                Swift es un intuitivo lenguaje de programación creado por Apple que permite
-                                diseñar apps para iOS, Mac, el Apple TV y el Apple Watch. Está pensado para
-                                dar a los desarrolladores más libertad que nunca. Como es de código abierto
-                                y tan fácil de usar, con Swift cualquiera puede hacer realidad sus ideas.
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div><!--/row2-->
-    </div>
-</section>
-<!--/parallax 2-->
-
-<!--Portfolio-->
-<div class="container homepage" id="pfolio">
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center"><span class="tag">&lt;</span>Portfolio<span class="tag"> /&gt;</span></h1>
-            <hr>
-            <h4 class="text-center">Algunos de los Desafios Realizados.</h4>
-        </div>
-    </div><!--/row1-->
-    <div class="row">
-        <div class="col-md-12">
-            <ul class="ch-grid">
-                <li>
-                    <div class="ch-item ch-img-1">
-                        <div class="ch-info">
-                            <h3>Qplay</h3>
-                            <p>Eugenio Vorontsov<a href="https://github.com/maceuge/qplayLaravel" target="_blank">Ver Proyecto en GitHub</a></p>
-                        </div>
-                        <div class="ch-thumb ch-img-1" id="portf-moveblk"></div>
-                    </div>
-                    <div class="portfolio-coment">
-                        <p class="text-center">
-                            Qplay es una Red Social orientada a musica en donde puedes encontrarte con las
-                            personas con los mismos gustos musicales que tu, compartir musica, seguir alguna
-                            banda o formar propia.
-                        </p>
-                    </div>
+        <!--/row1-->
+        <div class="row know-box">
+            <ul class="galeria">
+                <!--fila 1-->
+                <li class="box">
+                    <a href=""><img src="img/logoc/css3.fw.png" /></a>
                 </li>
-                <li>
-                    <div class="ch-item ch-img-2">
-                        <div class="ch-info">
-                            <h3>Movie Finder</h3>
-                            <p>Eugenio Vorontsov <a href="https://github.com/maceuge/movieFinder" target="_blank">Ver Proyecto en GitHub</a></p>
-                        </div>
-                        <div class="ch-thumb ch-img-2"></div>
-                    </div>
-                    <div class="portfolio-coment">
-                        <p class="text-center">
-                            Movie Finder es una biblioteca de peliculas del tipo muestra desarrollado bajo el
-                            Framework Laravel 5.3 con el ORM: Eloquent explorando sus funcionalidades.
-                        </p>
-                    </div>
+                <li class="box">
+                    <a href=""><img src="img/grid_empty.fw.png" /></a>
                 </li>
-                <li>
-                    <div class="ch-item ch-img-3">
-                        <div class="ch-info">
-                            <h3>iGrowup</h3>
-                            <p>Ivan Vitali y Eugenio Vorontsov <a href="http://www.igrowup.com.ar" target="_blank">Ver Pagina WEB</a></p>
-                        </div>
-                        <div class="ch-thumb ch-img-3"></div>
-                    </div>
-                    <div class="portfolio-coment">
-                        <p class="text-center">
-                            iGrowUp es un sistema de Gestion de Datos Personales basado en un Dashboard
-                            para organizar y administrar distintos grupos y organizaciones.
-                        </p>
-                    </div>
+                <li class="box">
+                    <a href=""><img src="img/logoc/html5.fw.png" /></a>
                 </li>
-                <li>
-                    <div class="ch-item ch-img-4">
-                        <div class="ch-info">
-                            <h3>Encuestas R&V</h3>
-                            <p>Ivan Vitali y Eugenio Vorontsov <a href="https://encuesta-ryv.firebaseapp.com/index.html" target="_blank">Ver Pagina Web</a></p>
-                        </div>
-                        <div class="ch-thumb ch-img-4"></div>
-                    </div>
-                    <div class="portfolio-coment">
-                        <p class="text-center">
-                            Encuestas Rock & Vida es una web para realizar las encuestas sobre el VIH
-                            y Adicciones en distintas zonas del Pais para luego sacar estadisticas y asi
-                            brindar informacion adecuada.
-                        </p>
-                    </div>
+                <li class="box">
+                    <a href=""><img src="img/logoc/types.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/php.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/grid_empty.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/laravel.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/grid_empty.fw.png" /></a>
+                </li>
+                <!--fila 2-->
+                <li class="box">
+                    <a href=""><img src="img/logoc/materialize.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/bootstrap.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/photoshop.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/jquery.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/fireworks.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/mysql.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/grid_empty.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/json.fw.png" /></a>
+                </li>
+                <!--fila 3-->
+                <li class="box">
+                    <a href=""><img src="img/logoc/sass.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/material.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/js.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/grid_empty.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/ajax.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/angular.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/react.fw.png" /></a>
+                </li>
+                <li class="box">
+                    <a href=""><img src="img/logoc/github.fw.png" /></a>
                 </li>
             </ul>
         </div>
-    </div><!--/row2-->
-</div><!--/container-->
-<!--Fin de Portfolio-->
+        <!--/row2-->
+    </div>
+    <!--/container-->
+    <!--Fin de Conocimientos-->
 
-<!--parallax 3 Footer -->
-<section class="bg-3 footer-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-xs-12">
-                <h4 class="text-center">Si te gusto el sitio aqui podes encontrar algunos links interesantes o podes contactarte conmigo.</h4>
-                <hr>
+    <!--parallax 2 Desarrollo -->
+    <section class="bg-2" id="desarollo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center"><span class="tag">&lt;</span>Investigacion y Desarrollo<span class="tag"> /&gt;</span></h1>
+                    <hr>
+                    <h4 class="text-center">Tecnologias que estoy investigando actualmente para aplicaciones varias.</h4>
+                </div>
             </div>
-        </div><!--/row1-->
+            <!--/row1-->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="http://semantic-ui.com/" target="_blank">
+                        <div class="invest invest-semantic">
+                            <div class="invest-logo">
+                                <img class="img-responsive center-block img-border" src="img/desarrollo/ionic.fw.png" alt="" width="120" height="120">
+                            </div>
+                            <div class="invest-title">
+                                <h1 class="text-center">Ionic</h1>
+                            </div>
+                            <div class="invest-coment">
+                                <p class="text-center">
+                                    Ionic es una herramienta, gratuita y open source, para el desarrollo de aplicaciones híbridas basadas en HTML5, CSS y JS. Está construido con Sass y optimizado con Angular.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://firebase.google.com/?hl=es-419" target="_blank">
+                        <div class="invest invest-firebase">
+                            <div class="invest-logo">
+                                <img class="img-responsive center-block img-border" src="img/desarrollo/node.fw.png" alt="" width="120" height="120">
+                            </div>
+                            <div class="invest-title">
+                                <h1 class="text-center">Node JS</h1>
+                            </div>
+                            <div class="invest-coment">
+                                <p class="text-center">
+                                    Node.js es una librería y entorno de ejecución de E/S dirigida por eventos y por lo tanto asíncrona que se ejecuta sobre el intérprete de JavaScript creado por Google V8.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://www.apple.com/es/swift/" target="_blank">
+                        <div class="invest invest-swift">
+                            <div class="invest-logo">
+                                <img class="img-responsive center-block img-border" src="img/desarrollo/angular.fw.png" alt="" width="120" height="120">
+                            </div>
+                            <div class="invest-title">
+                                <h1 class="text-center">Angular</h1>
+                            </div>
+                            <div class="invest-coment">
+                                <p class="text-center">
+                                    Angular es uno de los frameworks Javascript más utilizados para crear aplicaciones Web. Entre sus virtudes se destaca la posibilidad de utilizar templates declarativos, aplicar inyecciones de dependencias y crear componentes reutilizables.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--/row2-->
+        </div>
+    </section>
+    <!--/parallax 2-->
+
+    <!--Portfolio-->
+    <div class="container homepage" id="pfolio">
         <div class="row">
-            <div class="col-xs-12 col-md-3 col-lg-3">
-                <h4><!--i class="fa fa-book"></i--> Libros Recomendados</h4>
-                <div class="list-footer footer-items">
-                    <ul>
-                        <li>
-                            <a href="https://www.casadellibro.com/libro-codigo-limpio/9788441532106/2007424" class="foot-link" target="_blank">
+            <div class="col-md-12">
+                <h1 class="text-center"><span class="tag">&lt;</span>Portfolio<span class="tag"> /&gt;</span></h1>
+                <hr>
+                <h4 class="text-center">Algunos de los Desafios Realizados.</h4>
+            </div>
+        </div>
+        <!--/row1-->
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="ch-grid">
+                    <li>
+                        <div class="ch-item ch-img-1">
+                            <div class="ch-info">
+                                <h3>Qplay</h3>
+                                <p>Eugenio Vorontsov<a href="https://github.com/maceuge/qplayLaravel" target="_blank">Ver Proyecto en GitHub</a></p>
+                            </div>
+                            <div class="ch-thumb ch-img-1" id="portf-moveblk"></div>
+                        </div>
+                        <div class="portfolio-coment">
+                            <p class="text-center">
+                                Qplay es una Red Social orientada a musica en donde puedes encontrarte con las personas con los mismos gustos musicales que tu, compartir musica, seguir alguna banda o formar propia.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ch-item ch-img-2">
+                            <div class="ch-info">
+                                <h3>Movie Finder</h3>
+                                <p>Eugenio Vorontsov <a href="https://github.com/maceuge/movieFinder" target="_blank">Ver Proyecto en GitHub</a></p>
+                            </div>
+                            <div class="ch-thumb ch-img-2"></div>
+                        </div>
+                        <div class="portfolio-coment">
+                            <p class="text-center">
+                                Movie Finder es una biblioteca de peliculas del tipo muestra desarrollado bajo el Framework Laravel 5.3 con el ORM: Eloquent explorando sus funcionalidades.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ch-item ch-img-3">
+                            <div class="ch-info">
+                                <h3>iGrowup</h3>
+                                <p>Ivan Vitali y Eugenio Vorontsov <a href="http://www.igrowup.com.ar" target="_blank">Ver Pagina WEB</a></p>
+                            </div>
+                            <div class="ch-thumb ch-img-3"></div>
+                        </div>
+                        <div class="portfolio-coment">
+                            <p class="text-center">
+                                iGrowUp es un sistema de Gestion de Datos Personales basado en un Dashboard para organizar y administrar distintos grupos y organizaciones.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ch-item ch-img-4">
+                            <div class="ch-info">
+                                <h3>Encuestas R&V</h3>
+                                <p>Ivan Vitali y Eugenio Vorontsov <a href="https://encuesta-ryv.firebaseapp.com/index.html" target="_blank">Ver Pagina Web</a></p>
+                            </div>
+                            <div class="ch-thumb ch-img-4"></div>
+                        </div>
+                        <div class="portfolio-coment">
+                            <p class="text-center">
+                                Encuestas Rock & Vida es una web para realizar las encuestas sobre el VIH y Adicciones en distintas zonas del Pais para luego sacar estadisticas y asi brindar informacion adecuada.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--/row2-->
+    </div>
+    <!--/container-->
+    <!--Fin de Portfolio-->
+
+    <!--parallax 3 Footer -->
+    <section class="bg-3 footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <h4 class="text-center">Si te gusto el sitio aqui podes encontrar algunos links interesantes o podes contactarte conmigo.</h4>
+                    <hr>
+                </div>
+            </div>
+            <!--/row1-->
+            <div class="row">
+                <div class="col-xs-12 col-md-3 col-lg-3">
+                    <h4>
+                        <!--i class="fa fa-book"></i-->Libros Recomendados</h4>
+                    <div class="list-footer footer-items">
+                        <ul>
+                            <li>
+                                <a href="https://www.casadellibro.com/libro-codigo-limpio/9788441532106/2007424" class="foot-link" target="_blank">
                                 Codigo Limpio
                             </a>
-                        </li>
-                        <li>
-                            <a href="http://www.disenomovil.mobi/multimedia_un/01_intro_ux/no_me_hagas_pensar_steve%20_krug_2da%20ed.pdf" class="foot-link" target="_blank">
+                            </li>
+                            <li>
+                                <a href="http://www.disenomovil.mobi/multimedia_un/01_intro_ux/no_me_hagas_pensar_steve%20_krug_2da%20ed.pdf" class="foot-link" target="_blank">
                                 No Me Hagas Pensar
                             </a>
-                        </li>
-                        <li>
-                            <a href="http://shop.oreilly.com/product/9780596517748.do" class="foot-link" target="_blank">
+                            </li>
+                            <li>
+                                <a href="http://shop.oreilly.com/product/9780596517748.do" class="foot-link" target="_blank">
                                 JavaScript: The Good Parts
                             </a>
-                        </li>
+                            </li>
 
-                        <li>
-                            <a href="http://eloquentjavascript.net/" class="foot-link" target="_blank">Eloquent JavaScript</a>
-                        </li>
+                            <li>
+                                <a href="http://eloquentjavascript.net/" class="foot-link" target="_blank">Eloquent JavaScript</a>
+                            </li>
 
-                        <li>
-                            <a href="https://www.amazon.com/exec/obidos/ISBN=0201633612/portlandpatternrA/" class="foot-link" target="_blank">Design Patterns</a>
-                        </li>
+                            <li>
+                                <a href="https://www.amazon.com/exec/obidos/ISBN=0201633612/portlandpatternrA/" class="foot-link" target="_blank">Design Patterns</a>
+                            </li>
 
-                        <li>
-                            <a href="http://shop.oreilly.com/product/0636920022251.do" class="foot-link" target="_blank">Code Simplicity</a>
-                        </li>
+                            <li>
+                                <a href="http://shop.oreilly.com/product/0636920022251.do" class="foot-link" target="_blank">Code Simplicity</a>
+                            </li>
 
-                        <li>
-                            <a href="http://shop.oreilly.com/product/0636920033868.do" class="foot-link" target="_blank">Modern PHP</a>
-                        </li>
+                            <li>
+                                <a href="http://shop.oreilly.com/product/0636920033868.do" class="foot-link" target="_blank">Modern PHP</a>
+                            </li>
 
-                        <li>
-                            <a href="Photoshop Secrets of the Pros" class="foot-link" target="_blank">Photoshop Secrets</a>
-                        </li>
-                    </ul>
+                            <li>
+                                <a href="Photoshop Secrets of the Pros" class="foot-link" target="_blank">Photoshop Secrets</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-md-2 col-lg-2">
-                <h4><!--i class="fa fa-link"></i--> Links Interesantes</h4>
-                <div class="list-footer footer-items">
-                    <ul>
-                        <li><a href="http://bootsnipp.com/" class="foot-link" target="_blank">Bootsnipp</a></li>
-                        <li><a href="http://www.material-ui.com/#/" class="foot-link" target="_blank">Material UI</a></li>
-                        <li><a href="https://mailtrap.io/" class="foot-link" target="_blank">Mailtrap</a></li>
-                        <li><a href="https://datatables.net/" class="foot-link" target="_blank">Data Tables</a></li>
-                        <li><a href="http://javimarcos.com/front-end/25-trucos-css/" class="foot-link" target="_blank">CSS Trucos</a></li>
-                        <li><a href="http://www.flaticon.com/" class="foot-link" target="_blank">Flat Icon</a></li>
-                        <li><a href="http://www.ajaxshake.com/es/JS.html" class="foot-link" target="_blank">JS Animaciones</a></li>
-                        <li><a href="https://laracasts.com/" class="foot-link" target="_blank">Laracasts</a></li>
-                    </ul>
+                <div class="col-xs-12 col-md-2 col-lg-2">
+                    <h4>
+                        <!--i class="fa fa-link"></i-->Links Interesantes</h4>
+                    <div class="list-footer footer-items">
+                        <ul>
+                            <li><a href="http://bootsnipp.com/" class="foot-link" target="_blank">Bootsnipp</a></li>
+                            <li><a href="http://www.material-ui.com/#/" class="foot-link" target="_blank">Material UI</a></li>
+                            <li><a href="https://mailtrap.io/" class="foot-link" target="_blank">Mailtrap</a></li>
+                            <li><a href="https://datatables.net/" class="foot-link" target="_blank">Data Tables</a></li>
+                            <li><a href="http://javimarcos.com/front-end/25-trucos-css/" class="foot-link" target="_blank">CSS Trucos</a></li>
+                            <li><a href="http://www.flaticon.com/" class="foot-link" target="_blank">Flat Icon</a></li>
+                            <li><a href="http://www.ajaxshake.com/es/JS.html" class="foot-link" target="_blank">JS Animaciones</a></li>
+                            <li><a href="https://laracasts.com/" class="foot-link" target="_blank">Laracasts</a></li>
+                        </ul>
+                    </div>
                 </div>
+
+                <div class="col-xs-12 col-md-4 col-lg-4 contact">
+                    <h4>
+                        <!--i class="fa fa-envelope-o"-->
+                        </i> Contacto</h4>
+                    <div class="footer-items">
+                        <form class="form" action="" method="post" id="sendmail">
+                            <div class="form-group">
+                                <span class="help-block"></span>
+                                <input type="text" class="form-control cont-form" name="asunto" id="about" placeholder="Asunto" maxlength="30">
+                            </div>
+                            <div class="form-group">
+                                <span class="help-block"></span>
+                                <input type="text" class="form-control cont-form" name="email" id="emailsender" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <span class="help-block"></span>
+                                <textarea class="form-control cont-form" name="comentario" id="comment" placeholder="Comentario..." rows="4" maxlength="250"></textarea>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
+                                    <button type="submit" class="btn bluemiddle" id="enviar">Enviar <i class="fa fa-paper-plane"></i></button>
+                                    <button class="btn btn-danger erease animated" id="borrar"><i class="fa fa-times"></i></button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3 col-lg-3">
+                    <div class="footer-items">
+                        <h4>
+                            <!--i class="fa fa-envelope-o"-->
+                            </i> Perfil LinkedIn</h4>
+                        <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="light" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>-->
+                        <!--<div class="text-center">-->
+                        <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="dark" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>
+                        <!--</div>-->
+                        <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>-->
+                    </div>
+                </div>
+
             </div>
-
-            <div class="col-xs-12 col-md-4 col-lg-4 contact">
-                <h4><!--i class="fa fa-envelope-o"--></i> Contacto</h4>
-                <div class="footer-items">
-                <form class="form" action="" method="post" id="sendmail">
-                    <div class="form-group">
-                        <span class="help-block"></span>
-                        <input type="text" class="form-control cont-form" name="asunto" id="about" placeholder="Asunto" maxlength="30">
-                    </div>
-                    <div class="form-group">
-                        <span class="help-block"></span>
-                        <input type="text" class="form-control cont-form" name="email" id="emailsender" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <span class="help-block"></span>
-                        <textarea class="form-control cont-form" name="comentario" id="comment" placeholder="Comentario..." rows="4" maxlength="250"></textarea>
-                    </div>
-
+            <!--/row2-->
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <hr>
                     <div class="row">
-                        <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
-                            <button type="submit" class="btn bluemiddle" id="enviar">Enviar <i class="fa fa-paper-plane"></i></button>
-                            <button class="btn btn-danger erease animated" id="borrar"><i class="fa fa-times"></i></button>
-                        </div>
-                    </div>
+                        <div class="col-md-6">
+                            <div class="row separe">
+                                <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                    <a class="btn btn-default github social" href="https://github.com/search?utf8=%E2%9C%93&q=maceuge%2F&type=Repositories&ref=searchresults" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                                </div>
 
-                </form>
-                </div>
-            </div>
+                                <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                    <a class="btn btn-default linkedin social" href="https://www.linkedin.com/in/eugenio-vorontsov-8319a248/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </div>
 
-            <div class="col-xs-12 col-md-3 col-lg-3">
-                <div class="footer-items">
-                <h4><!--i class="fa fa-envelope-o"--></i> Perfil LinkedIn</h4>
-                <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="light" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>-->
-                <!--<div class="text-center">-->
-                    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="dark" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>
-                <!--</div>-->
-                <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>-->
-                </div>
-            </div>
-
-        </div><!--/row2-->
-        <div class="row">
-            <div class="col-xs-12 col-md-12 col-lg-12">
-                <hr>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row separe">
-                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
-                                <a class="btn btn-default github social" href="https://github.com/search?utf8=%E2%9C%93&q=maceuge%2F&type=Repositories&ref=searchresults" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                            </div>
-
-                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
-                                <a class="btn btn-default linkedin social" href="https://www.linkedin.com/in/eugenio-vorontsov-8319a248/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </div>
-
-                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
-                                <button type="button" class="btn btn-default slack social" data-toggle="modal" data-target="#slackModal">
+                                <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                    <button type="button" class="btn btn-default slack social" data-toggle="modal" data-target="#slackModal">
                                     <i class="fa fa-slack fa-2x"></i>
                                 </button>
-                            </div>
+                                </div>
 
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-6">
-                        <div class="row separe">
-                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
-                                <a class="btn btn-default twitter social" href="https://twitter.com/eugenio_vr" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-                            </div>
-                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
-                                <a class="btn btn-default instagram social" href="https://www.instagram.com/evgenivr/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-                            </div>
-                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                        <div class="col-md-6">
+                            <div class="row separe">
+                                <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                    <a class="btn btn-default twitter social" href="https://twitter.com/eugenio_vr" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                                </div>
+                                <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                    <a class="btn btn-default instagram social" href="https://www.instagram.com/evgenivr/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                                </div>
+                                <div class="col-xs-4 col-md-4 col-lg-4 text-center">
 
-                                <button type="button" class="btn btn-default face social" data-container="body" data-toggle="popover"
-                                data-placement="top" data-content="Proximamente...">
+                                    <button type="button" class="btn btn-default face social" data-container="body" data-toggle="popover" data-placement="top" data-content="Proximamente...">
                                     <i class="fa fa-facebook fa-2x"></i>
                                 </button>
 
+                                </div>
                             </div>
                         </div>
+
                     </div>
-
                 </div>
             </div>
-        </div><!--/row3-->
+            <!--/row3-->
 
-    </div>
-</section>
-<!--/parallax 3-->
+        </div>
+    </section>
+    <!--/parallax 3-->
 
-<!--Footer Bar-->
-<div class="footerbar-color text-center" id="footer">
-    <div class="container">
-        <p class="footer-bar">Copyright <i class="fa fa-copyright"></i>
-            2016. | Web Diseñada y Desarrollada por Eugenio Vorontsov |
-            <a href="https://maceuge.github.io/"> www.maceuge.github.io</a>
-        </p>
-    </div>
-</div>
-<!--/footer bar-->
-
-<!--Boton Scroll Top-->
-<div class="top-button">
-    <a class="btn-rolltop" href=""><i class="fa fa-arrow-up fa-lg"></i></a>
-</div>
-<!--/Boton Scroll Top-->
-
-
-<!--Modal Section-->
-<div class="modal fade" tabindex="-1" role="dialog" id="dhModal">
-    <div class="slider" id="slider">
-        <ul>
-            <li><img class="img-responsive" src="img/titulos/DigitalHouse.jpg" alt=""></li>
-        </ul>
-    </div>
-</div><!-- /.modal -->
-
-<div class="modal fade" tabindex="-1" role="dialog" id="ubaModal">
-    <div class="slider" id="slider1">
-        <a href="#" class="control_next1">
-        <i class="fa fa-arrow-circle-o-right fa-2x"></i>
-        </a>
-        <a href="#" class="control_prev1">
-        <i class="fa fa-arrow-circle-o-left fa-2x"></i>
-        </a>
-        <ul>
-            <li><img class="img-responsive" src="img/titulos/UBA_i.jpg" alt=""></li>
-            <li><img class="img-responsive" src="img/titulos/UBA_1.jpg" alt=""></li>
-            <li><img class="img-responsive" src="img/titulos/UBA_2.jpg" alt=""></li>
-            <li><img class="img-responsive" src="img/titulos/UBA_3.jpg" alt=""></li>
-            <li><img class="img-responsive" src="img/titulos/UBA_4.jpg" alt=""></li>
-        </ul>
-    </div>
-</div><!-- /.modal -->
-
-<div class="modal fade" tabindex="-1" role="dialog" id="utnModal">
-    <div class="slider" id="slider2">
-        <a href="#" class="control_next2">
-        <i class="fa fa-arrow-circle-o-right fa-2x"></i>
-        </a>
-        <a href="#" class="control_prev2">
-        <i class="fa fa-arrow-circle-o-left fa-2x"></i>
-        </a>
-        <ul>
-            <li><img class="img-responsive" src="img/titulos/UtnBControlF.jpg" alt=""></li>
-            <li><img class="img-responsive" src="img/titulos/BControlF_1.jpg" alt=""></li>
-            <li><img class="img-responsive" src="img/titulos/BControlF_2.jpg" alt=""></li>
-            <li><img class="img-responsive" src="img/titulos/BControlF_3.jpg" alt=""></li>
-        </ul>
-    </div>
-</div><!-- /.modal -->
-
-<div class="modal fade" tabindex="-1" role="dialog" id="cpiModal">
-    <div class="slider" id="slider3">
-        <ul>
-            <li><img class="img-responsive" src="img/titulos/CPI.jpg" alt=""></li>
-        </ul>
-    </div>
-</div><!-- /.modal -->
-
-<!--Formulario Slack-->
-<div class="modal fade" id="slackModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title bluelight-txt text-center" id="myModalLabel">Slackeame!</h4>
-            </div>
-            <form class="form" method="post" id="slackform">
-            <div class="modal-body">
-                <div class="form-group">
-                    <input type="text" class="form-control form-slack" id="asunto" placeholder="Asunto" maxlength="30">
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control form-slack" id="comentario" placeholder="Comentario..." rows="4" maxlength="250"></textarea>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="submit" class="btn bluemiddle center-block" id="sendslack">Slackear <i class="fa fa-slack"></i> </button>
-            </div>
-            </form>
+    <!--Footer Bar-->
+    <div class="footerbar-color text-center" id="footer">
+        <div class="container">
+            <p class="footer-bar">Copyright <i class="fa fa-copyright"></i> 2016. | Web Diseñada y Desarrollada por Eugenio Vorontsov |
+                <a href="https://maceuge.github.io/"> www.maceuge.github.io</a>
+            </p>
         </div>
     </div>
-</div>
-<!--/Formulario Slack-->
+    <!--/footer bar-->
 
-<!-- /Modal Section-->
+    <!--Boton Scroll Top-->
+    <div class="top-button">
+        <a class="btn-rolltop" href=""><i class="fa fa-arrow-up fa-lg"></i></a>
+    </div>
+    <!--/Boton Scroll Top-->
 
-<!--JavaScript Plugin-->
-<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/email.min.js"></script>
-<script type="text/javascript" src="js/email-init.js"></script>
-<script type="text/javascript" src="js/form-validate.js"></script>
-<script type="text/javascript" src="js/notifIt.js"></script>
-<script type="text/javascript" src="js/parallax.js"></script>
-<script type="text/javascript" src="js/navanim.js"></script>
-<script type="text/javascript" src="js/rolltop.js"></script>
-<script type="text/javascript" src="js/certifslider2.js"></script>
-<script type="text/javascript" src="js/pagenav.js"></script>
-<script type="text/javascript" src="js/particles.min.js"></script>
-<script type="text/javascript" src="js/partic-start.js"></script>
-<script type="text/javascript" src="js/carucel-particle.js"></script>
-<script type="text/javascript" src="js/sobremi.js"></script>
-<script type="text/javascript" src="js/randomcolor.js"></script>
-<script type="text/javascript" src="js/slacktome.js"></script>
-<script type="text/javascript" src="js/popover-init.js"></script>
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<script type="text/javascript" src="js/reveal-set.js"></script>
 
-<!--Fin de JavaScript Plugins-->
+    <!--Modal Section-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="dhModal">
+        <div class="slider" id="slider">
+            <ul>
+                <li><img class="img-responsive" src="img/titulos/DigitalHouse.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="ubaModal">
+        <div class="slider" id="slider1">
+            <a href="#" class="control_next1">
+                <i class="fa fa-arrow-circle-o-right fa-2x"></i>
+            </a>
+            <a href="#" class="control_prev1">
+                <i class="fa fa-arrow-circle-o-left fa-2x"></i>
+            </a>
+            <ul>
+                <li><img class="img-responsive" src="img/titulos/UBA_i.jpg" alt=""></li>
+                <li><img class="img-responsive" src="img/titulos/UBA_1.jpg" alt=""></li>
+                <li><img class="img-responsive" src="img/titulos/UBA_2.jpg" alt=""></li>
+                <li><img class="img-responsive" src="img/titulos/UBA_3.jpg" alt=""></li>
+                <li><img class="img-responsive" src="img/titulos/UBA_4.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="utnModal">
+        <div class="slider" id="slider2">
+            <a href="#" class="control_next2">
+                <i class="fa fa-arrow-circle-o-right fa-2x"></i>
+            </a>
+            <a href="#" class="control_prev2">
+                <i class="fa fa-arrow-circle-o-left fa-2x"></i>
+            </a>
+            <ul>
+                <li><img class="img-responsive" src="img/titulos/UtnBControlF.jpg" alt=""></li>
+                <li><img class="img-responsive" src="img/titulos/BControlF_1.jpg" alt=""></li>
+                <li><img class="img-responsive" src="img/titulos/BControlF_2.jpg" alt=""></li>
+                <li><img class="img-responsive" src="img/titulos/BControlF_3.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="cpiModal">
+        <div class="slider" id="slider3">
+            <ul>
+                <li><img class="img-responsive" src="img/titulos/CPI.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Formulario Slack-->
+    <div class="modal fade" id="slackModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title bluelight-txt text-center" id="myModalLabel">Slackeame!</h4>
+                </div>
+                <form class="form" method="post" id="slackform">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-slack" id="asunto" placeholder="Asunto" maxlength="30">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-slack" id="comentario" placeholder="Comentario..." rows="4" maxlength="250"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn bluemiddle center-block" id="sendslack">Slackear <i class="fa fa-slack"></i> </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--/Formulario Slack-->
+
+    <!-- /Modal Section-->
+
+    <!--JavaScript Plugin-->
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/email.min.js"></script>
+    <script type="text/javascript" src="js/email-init.js"></script>
+    <script type="text/javascript" src="js/form-validate.js"></script>
+    <script type="text/javascript" src="js/notifIt.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
+    <script type="text/javascript" src="js/navanim.js"></script>
+    <script type="text/javascript" src="js/rolltop.js"></script>
+    <script type="text/javascript" src="js/certifslider2.js"></script>
+    <script type="text/javascript" src="js/pagenav.js"></script>
+    <script type="text/javascript" src="js/particles.min.js"></script>
+    <script type="text/javascript" src="js/partic-start.js"></script>
+    <script type="text/javascript" src="js/carucel-particle.js"></script>
+    <script type="text/javascript" src="js/sobremi.js"></script>
+    <script type="text/javascript" src="js/randomcolor.js"></script>
+    <script type="text/javascript" src="js/slacktome.js"></script>
+    <script type="text/javascript" src="js/popover-init.js"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script type="text/javascript" src="js/reveal-set.js"></script>
+
+    <!--Fin de JavaScript Plugins-->
 
 </body>
+
 </html>
